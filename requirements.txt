@@ -31,8 +31,6 @@ idna==3.10
 Jinja2==3.1.4
 jiter==0.7.1
 latex2mathml==3.77.0
-# Editable install with no version control (longchat==0.2.3)
--e /home/hz0158@students.ad.unt.edu/workspace/DAM/Attention/experiments/LongEval/LongChat
 markdown-it-py==3.0.0
 markdown2==2.5.1
 MarkupSafe==2.1.5
