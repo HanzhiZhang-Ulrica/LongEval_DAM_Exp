@@ -1,0 +1,101 @@
+Label: 27951, Predict:  The <REGISTER_CONTENT> in line 7 is 7., Parsed: 7, prompt length: 93442
+Label: 33481, Predict:  The <REGISTER_CONTENT> in line bulldozer-deadpan is <24921>., Parsed: 24921, prompt length: 93310
+Label: 35784, Predict:  The <REGISTER_CONTENT> in line motivate-rice is 1., Parsed: 1, prompt length: 93412
+Label: 29281, Predict:  The <REGISTER_CONTENT> in line dressing-detective is <30190>., Parsed: 30190, prompt length: 93439
+Label: 16390, Predict:  The <REGISTER_CONTENT> in line complicity-meal is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 93421
+Label: 12687, Predict:  The <REGISTER_CONTENT> in line potato-folk is 1., Parsed: 1, prompt length: 93412
+Label: 7041, Predict:  The <REGISTER_CONTENT> in line angel-abide is 1. The line starts with "line veil-elk: REGISTER_CONTENT is <10251>" and ends with "REGISTER_CONTENT is <1>".  The final answer is: $\boxed{1}$, Parsed: 1, prompt length: 93408
+Label: 27248, Predict:  The <REGISTER_CONTENT> in line freight-fisting is 1. The line starts with "line freight-fisting" and ends with "line freight-fisting". The <REGISTER_CONTENT> is the number 1., Parsed: 1, prompt length: 93452
+Label: 15085, Predict:  The <REGISTER_CONTENT> in line repulsive-lid is 0., Parsed: 0, prompt length: 93388
+Label: 27080, Predict:  The <REGISTER_CONTENT> in line alpaca-seagull is 3., Parsed: 3, prompt length: 93403
+Label: 38268, Predict:  The <REGISTER_CONTENT> in line fluke-roasted is 1., Parsed: 1, prompt length: 93412
+Label: 14838, Predict:  The <REGISTER_CONTENT> in line torte-cocoa is 1., Parsed: 1, prompt length: 93445
+Label: 47800, Predict:  The <REGISTER_CONTENT> in line serial-curiosity is 2., Parsed: 2, prompt length: 93443
+Label: 22628, Predict:  The <REGISTER_CONTENT> in line "twilight-reduce" is 0., Parsed: 0, prompt length: 93450
+Label: 17234, Predict:  The <REGISTER_CONTENT> in line aboard-romaine is 1. The number is 1., Parsed: 1, prompt length: 93419
+Label: 26451, Predict:  The <REGISTER_CONTENT> in line anything-know is 7., Parsed: 7, prompt length: 93432
+Label: 5802, Predict:  The <REGISTER_CONTENT> in line kayak-military is 0., Parsed: 0, prompt length: 93392
+Label: 39194, Predict:  The <REGISTER_CONTENT> in line patriot-likelihood is 1. The number is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 93416
+Label: 33272, Predict:  The <REGISTER_CONTENT> in line kitchen-ozone is 0., Parsed: 0, prompt length: 93459
+Label: 24774, Predict:  The <REGISTER_CONTENT> in line octavo-reclamation is 3., Parsed: 3, prompt length: 93386
+Label: 34251, Predict:  The <REGISTER_CONTENT> in line center-wiry is 0., Parsed: 0, prompt length: 93447
+Label: 46405, Predict:  The <REGISTER_CONTENT> in line stylus-cyclamen is 1., Parsed: 1, prompt length: 93440
+Label: 6220, Predict:  The <REGISTER_CONTENT> in line 1 is <4930>. The <REGISTER_CONTENT> in line 2 is <40665>. The <REGISTER_CONTENT> in line 3 is <40665>. The <REGISTER_CONTENT> in line 4 is <40665>. The <REGISTER_CONTENT> in line 5 is <40665>. The <REGISTER_CONTENT> in line 6 is <40665>. The <REGISTER_CONTENT> in line 7 is <40665>. The <, Parsed: 40665, prompt length: 93426
+Label: 32143, Predict:  The <REGISTER_CONTENT> in line barber-clockwork is 3., Parsed: 3, prompt length: 93409
+Label: 18317, Predict:  The <REGISTER_CONTENT> in line top-convenience is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 93458
+Label: 19540, Predict:  The <REGISTER_CONTENT> in line downstairs-ashtray is 0., Parsed: 0, prompt length: 93397
+Label: 33105, Predict:  The <REGISTER_CONTENT> in line charity-hockey is 0., Parsed: 0, prompt length: 93453
+Label: 12889, Predict:  The <REGISTER_CONTENT> in line elegant-funeral is 1. The line starts with "line elegant-funeral" and ends with "line elegant-funeral". The <REGISTER_CONTENT> is the number that appears in the middle of the line. In this case, the <REGISTER_CONTENT> is 1., Parsed: 1, prompt length: 93430
+Label: 10420, Predict:  The <REGISTER_CONTENT> in line wild-wave is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 93383
+Label: 45050, Predict:  The <REGISTER_CONTENT> in line story-telling-extension is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 93424
+Label: 6316, Predict:  The <REGISTER_CONTENT> in line figure-processor is 0. It is a number that appears in the output of the processor, but it is not a numerical value that can be retrieved or used in calculations. It is a placeholder or a marker used to indicate that the output is not a numerical value., Parsed: 0, prompt length: 93410
+Label: 21019, Predict:  The <REGISTER_CONTENT> in line application-philosopher is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 93411
+Label: 18478, Predict:  The <REGISTER_CONTENT> in line estate-well-being is 3., Parsed: 3, prompt length: 93453
+Label: 43710, Predict:  The <REGISTER_CONTENT> in line overthrow-goodwill is 0., Parsed: 0, prompt length: 93419
+Label: 12590, Predict:  The <REGISTER_CONTENT> in line helium-earsplitting is  0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, Parsed: 0, prompt length: 93407
+Label: 20385, Predict:  The <REGISTER_CONTENT> in line obsidian-appellation is  <48536>., Parsed: 48536, prompt length: 93406
+Label: 2882, Predict:  The <REGISTER_CONTENT> in line eddy-stingy is 1., Parsed: 1, prompt length: 93383
+Label: 20912, Predict:  The <REGISTER_CONTENT> in line sweatshop-liver is 0. It is a line of text that starts with "line sweatshop-liver: REGISTER_CONTENT is <0>" and ends with "REGISTER_CONTENT is <0>". This line is not a numerical value, but rather a placeholder for a line of text., Parsed: 0, prompt length: 93343
+Label: 15323, Predict:  The <REGISTER_CONTENT> in line brook-fat is <11898>., Parsed: 11898, prompt length: 93404
+Label: 40680, Predict:  The <REGISTER_CONTENT> in line "loaf-outside" is 1., Parsed: 1, prompt length: 93392
+Label: 6218, Predict:  The <REGISTER_CONTENT> in line proportion-website is 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, Parsed: 0, prompt length: 93435
+Label: 25017, Predict:  The <REGISTER_CONTENT> in line competence-vertigo is 0., Parsed: 0, prompt length: 93385
+Label: 33691, Predict:  The <REGISTER_CONTENT> in line queue-gaffer is 3., Parsed: 3, prompt length: 93393
+Label: 41153, Predict:  The <REGISTER_CONTENT> in line continue-hurry is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 93419
+Label: 40426, Predict:  The <REGISTER_CONTENT> in line misplacement-neuropathologist is  0., Parsed: 0, prompt length: 93430
+Label: 44743, Predict:  The <REGISTER_CONTENT> in line scanner-machine is <4857>., Parsed: 4857, prompt length: 93433
+Label: 29159, Predict:  The <REGISTER_CONTENT> in line sister-in-law-buddy is 3., Parsed: 3, prompt length: 93437
+Label: 39730, Predict:  The <REGISTER_CONTENT> in line mailbox-horrible is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 93426
+Label: 4832, Predict:  The <REGISTER_CONTENT> in line vehicle-workhorse is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 93470
+Label: 66, Predict:  The <REGISTER_CONTENT> in line "weekend-tolerance" is  0., Parsed: 0, prompt length: 93414
+Label: 29960, Predict:  The <REGISTER_CONTENT> in line full-mussel is 0., Parsed: 0, prompt length: 93358
+Label: 48007, Predict:  The <REGISTER_CONTENT> in line drainage-domain is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 93414
+Label: 3795, Predict:  The <REGISTER_CONTENT> in line appendix-itch is 1., Parsed: 1, prompt length: 93419
+Label: 10833, Predict:  The <REGISTER_CONTENT> in line story-buzz is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 93413
+Label: 6453, Predict:  The <REGISTER_CONTENT> in line rank-civilization is 3.  The final answer is $\boxed{3}$., Parsed: 3, prompt length: 93451
+Label: 39642, Predict:  The <REGISTER_CONTENT> in line outrageous-litigation is 219.  The final answer is $\boxed{219}$., Parsed: 219, prompt length: 93410
+Label: 2389, Predict:  The <REGISTER_CONTENT> in line face-clip is <16346>., Parsed: 16346, prompt length: 93389
+Label: 16992, Predict:  The <REGISTER_CONTENT> in line win-pheasant is 1., Parsed: 1, prompt length: 93449
+Label: 28375, Predict:  The <REGISTER_CONTENT> in line shed-quinoa is 1., Parsed: 1, prompt length: 93373
+Label: 24640, Predict:  The <REGISTER_CONTENT> in line live-predict is 26869., Parsed: 26869, prompt length: 93398
+Label: 35977, Predict:  The <REGISTER_CONTENT> in line wont-hotel is 1. It is the first line of the record., Parsed: 1, prompt length: 93386
+Label: 36906, Predict:  The <REGISTER_CONTENT> in line trillion-copy is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 93415
+Label: 36858, Predict:  The <REGISTER_CONTENT> in line cave-sidewalk is 0., Parsed: 0, prompt length: 93353
+Label: 15880, Predict:  The <REGISTER_CONTENT> in line shin-patriarch is 1., Parsed: 1, prompt length: 93426
+Label: 11955, Predict:  The <REGISTER_CONTENT> in line brownie-ecosystem is 23867., Parsed: 23867, prompt length: 93452
+Label: 19299, Predict:  The <REGISTER_CONTENT> in line hand-holding-garment is 3., Parsed: 3, prompt length: 93465
+Label: 45841, Predict:  The <REGISTER_CONTENT> in line box-creative is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 93420
+Label: 3401, Predict:  The <REGISTER_CONTENT> in line reason-magical is <14556>., Parsed: 14556, prompt length: 93392
+Label: 3448, Predict:  The <REGISTER_CONTENT> in line happening-cough is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 93448
+Label: 26172, Predict:  The <REGISTER_CONTENT> in line revelation-burlesque is  1. The line begins with "line businessman-dictaphone: REGISTER_CONTENT is <5460>" and ends with "line woman-thousand: REGISTER_CONTENT is <19657>".  The final answer is: $\boxed{19657}$, Parsed: 19657, prompt length: 93427
+Label: 30194, Predict:  The <REGISTER_CONTENT> in line income-manufacturer is 3., Parsed: 3, prompt length: 93414
+Label: 37247, Predict:  The <REGISTER_CONTENT> in line allowance-barbecue is <25756>., Parsed: 25756, prompt length: 93446
+Label: 44674, Predict:  The <REGISTER_CONTENT> in line "band-appreciate" is 1., Parsed: 1, prompt length: 93391
+Label: 22491, Predict:  The <REGISTER_CONTENT> in line danger-stability is <27088>., Parsed: 27088, prompt length: 93375
+Label: 46332, Predict:  The <REGISTER_CONTENT> in line sun-parking is 0.  The final answer is $\boxed{0}$., Parsed: 0, prompt length: 93460
+Label: 31925, Predict:  The <REGISTER_CONTENT> in line holder-slapstick is 1., Parsed: 1, prompt length: 93375
+Label: 6302, Predict:  The <REGISTER_CONTENT> in line tomography-sender is 0. It is a single digit number., Parsed: 0, prompt length: 93438
+Label: 9263, Predict:  The <REGISTER_CONTENT> in line coordinator-mouse is <49064>., Parsed: 49064, prompt length: 93399
+Label: 8364, Predict:  The <REGISTER_CONTENT> in line mare-hashtag is 36820., Parsed: 36820, prompt length: 93447
+Label: 16160, Predict:  The <REGISTER_CONTENT> in line "briefly-burn" is 3., Parsed: 3, prompt length: 93373
+Label: 26678, Predict:  The <REGISTER_CONTENT> in line embarrassment-understatement is 24655., Parsed: 24655, prompt length: 93369
+Label: 48392, Predict:  The <REGISTER_CONTENT> in line withdraw-ratepayer is 8811., Parsed: 8811, prompt length: 93403
+Label: 49511, Predict:  The <REGISTER_CONTENT> in line codpiece-butane is 1. It is a numerical value., Parsed: 1, prompt length: 93399
+Label: 26922, Predict:  The <REGISTER_CONTENT> in line prescription-jodhpurs is 1. The number is 1., Parsed: 1, prompt length: 93403
+Label: 5308, Predict:  The <REGISTER_CONTENT> in line flexibility-stitch is 1. The number is 1., Parsed: 1, prompt length: 93492
+Label: 38693, Predict:  The <REGISTER_CONTENT> in line 19 is 1., Parsed: 1, prompt length: 93381
+Label: 5817, Predict:  The <REGISTER_CONTENT> in line carry-inn is 3., Parsed: 3, prompt length: 93457
+Label: 23455, Predict:  The <REGISTER_CONTENT> in line breakable-warrant is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 93374
+Label: 8233, Predict:  The <REGISTER_CONTENT> in line bias-detail is <200>.   The final answer is $\boxed{200}$., Parsed: 200, prompt length: 93383
+Label: 44157, Predict:  The <REGISTER_CONTENT> in line absence-midwife is 21878., Parsed: 21878, prompt length: 93396
+Label: 22972, Predict:  The <REGISTER_CONTENT> in line eating-patio is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 93376
+Label: 21299, Predict:  The <REGISTER_CONTENT> in line investigation-moai is 1. The <REGISTER_CONTENT> is 1. The <REGISTER_CONTENT> is 1. The <REGISTER_CONTENT> is 1. The <REGISTER_CONTENT> is 1. The <REGISTER_CONTENT> is 1. The <REGISTER_CONTENT> is 1. The <REGISTER_CONTENT> is 1. The <REGISTER_CONTENT> is 1. The <REGISTER_CONTENT> is 1. The <REGISTER_CONTENT, Parsed: 1, prompt length: 93390
+Label: 26701, Predict:  The <REGISTER_CONTENT> in line tortilla-bottling is 0. I don't have any information about a tortilla-bottling in the record., Parsed: 0, prompt length: 93418
+Label: 21952, Predict:  The <REGISTER_CONTENT> in line headlight-imagine is 3., Parsed: 3, prompt length: 93438
+Label: 3618, Predict:  The <REGISTER_CONTENT> in line unable-alpenglow is 9., Parsed: 9, prompt length: 93399
+Label: 25055, Predict:  The <REGISTER_CONTENT> in line retention-lamb is <11005>., Parsed: 11005, prompt length: 93420
+Label: 9978, Predict:  The <REGISTER_CONTENT> in line locomotive-rocket is 0., Parsed: 0, prompt length: 93448
+Label: 19401, Predict:  The <REGISTER_CONTENT> in line efficacious-join is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 93406
+Label: 27617, Predict:  The <REGISTER_CONTENT> in line synthesize-depend is 47336., Parsed: 47336, prompt length: 93435
+Label: 9818, Predict:  The <REGISTER_CONTENT> in line industrious-cannibal is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 93336
+Accuracy: 0.0, Ave Prompt Length: 93413.77000000005

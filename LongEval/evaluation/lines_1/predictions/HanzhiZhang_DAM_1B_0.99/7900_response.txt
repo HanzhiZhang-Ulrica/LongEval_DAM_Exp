@@ -1,0 +1,200 @@
+Label: 26133, Predict:  The <REGISTER_CONTENT> in line blast-oeuvre is 3., Parsed: 3, prompt length: 101026
+Label: 30946, Predict:  The <REGISTER_CONTENT> in line unequaled-sling is 1., Parsed: 1, prompt length: 101068
+Label: 30946, Predict:  The <REGISTER_CONTENT> in line unequaled-sling is 1., Parsed: 1, prompt length: 101068
+Label: 5494, Predict:  The <REGISTER_CONTENT> in line sorbet-shovel is <9899>., Parsed: 9899, prompt length: 101060
+Label: 5494, Predict:  The <REGISTER_CONTENT> in line sorbet-shovel is <9899>., Parsed: 9899, prompt length: 101060
+Label: 36686, Predict:  The <REGISTER_CONTENT> in line stitcher-shoat is 3., Parsed: 3, prompt length: 101065
+Label: 36686, Predict:  The <REGISTER_CONTENT> in line stitcher-shoat is 3., Parsed: 3, prompt length: 101065
+Label: 690, Predict:  The <REGISTER_CONTENT> in line urgency-rob is <14526>., Parsed: 14526, prompt length: 101019
+Label: 690, Predict:  The <REGISTER_CONTENT> in line urgency-rob is <14526>., Parsed: 14526, prompt length: 101019
+Label: 34920, Predict:  The <REGISTER_CONTENT> in line reservoir-shear is <16062>., Parsed: 16062, prompt length: 101039
+Label: 34920, Predict:  The <REGISTER_CONTENT> in line reservoir-shear is <16062>., Parsed: 16062, prompt length: 101039
+Label: 42220, Predict:  The <REGISTER_CONTENT> in line snap-stole is <48535>., Parsed: 48535, prompt length: 101035
+Label: 42220, Predict:  The <REGISTER_CONTENT> in line snap-stole is <48535>., Parsed: 48535, prompt length: 101035
+Label: 11145, Predict:  The <REGISTER_CONTENT> in line new-launch is 0. It is the first line of the record, which is a list of lines that start with "line <number>".  The final answer is: 0., Parsed: 0, prompt length: 101019
+Label: 11145, Predict:  The <REGISTER_CONTENT> in line new-launch is 0. It is the first line of the record, which is a list of lines that start with "line <number>".  The final answer is: 0., Parsed: 0, prompt length: 101019
+Label: 43626, Predict:  The <REGISTER_CONTENT> in line commerce-tomb is <37066>., Parsed: 37066, prompt length: 100988
+Label: 43626, Predict:  The <REGISTER_CONTENT> in line commerce-tomb is <37066>., Parsed: 37066, prompt length: 100988
+Label: 29954, Predict:  The <REGISTER_CONTENT> in line trowel-plea is <34752>., Parsed: 34752, prompt length: 101062
+Label: 29954, Predict:  The <REGISTER_CONTENT> in line trowel-plea is <34752>., Parsed: 34752, prompt length: 101062
+Label: 10200, Predict:  The <REGISTER_CONTENT> in line smelting-pipe is <36914>., Parsed: 36914, prompt length: 101043
+Label: 10200, Predict:  The <REGISTER_CONTENT> in line smelting-pipe is <36914>., Parsed: 36914, prompt length: 101043
+Label: 20759, Predict:  The <REGISTER_CONTENT> in line warlock-jailhouse is <46784>., Parsed: 46784, prompt length: 101041
+Label: 20759, Predict:  The <REGISTER_CONTENT> in line warlock-jailhouse is <46784>., Parsed: 46784, prompt length: 101041
+Label: 21387, Predict:  The <REGISTER_CONTENT> in line spur-paramecium is <12758>., Parsed: 12758, prompt length: 101052
+Label: 21387, Predict:  The <REGISTER_CONTENT> in line spur-paramecium is <12758>., Parsed: 12758, prompt length: 101052
+Label: 17120, Predict:  The <REGISTER_CONTENT> in line football-footwear is 1. The number is 1., Parsed: 1, prompt length: 101019
+Label: 17120, Predict:  The <REGISTER_CONTENT> in line football-footwear is 1. The number is 1., Parsed: 1, prompt length: 101019
+Label: 34912, Predict:  The <REGISTER_CONTENT> in line marimba-legging is 0., Parsed: 0, prompt length: 101051
+Label: 34912, Predict:  The <REGISTER_CONTENT> in line marimba-legging is 0., Parsed: 0, prompt length: 101051
+Label: 10888, Predict:  The <REGISTER_CONTENT> in line learning-possibility is 3., Parsed: 3, prompt length: 101043
+Label: 10888, Predict:  The <REGISTER_CONTENT> in line learning-possibility is 3., Parsed: 3, prompt length: 101043
+Label: 14950, Predict:  The <REGISTER_CONTENT> in line terminal-adrenalin is 46607., Parsed: 46607, prompt length: 101050
+Label: 14950, Predict:  The <REGISTER_CONTENT> in line terminal-adrenalin is 46607., Parsed: 46607, prompt length: 101050
+Label: 3479, Predict:  The <REGISTER_CONTENT> in line soldier-perfume is <2459>., Parsed: 2459, prompt length: 101028
+Label: 3479, Predict:  The <REGISTER_CONTENT> in line soldier-perfume is <2459>., Parsed: 2459, prompt length: 101028
+Label: 16479, Predict:  The <REGISTER_CONTENT> in line "prosecutor" is 11538., Parsed: 11538, prompt length: 101058
+Label: 16479, Predict:  The <REGISTER_CONTENT> in line "prosecutor" is 11538., Parsed: 11538, prompt length: 101058
+Label: 42587, Predict:  The <REGISTER_CONTENT> in line dawn-radiator is 0., Parsed: 0, prompt length: 101047
+Label: 42587, Predict:  The <REGISTER_CONTENT> in line dawn-radiator is 0., Parsed: 0, prompt length: 101047
+Label: 3237, Predict:  The <REGISTER_CONTENT> in line "milestone-highfalutin" is 1., Parsed: 1, prompt length: 101042
+Label: 3237, Predict:  The <REGISTER_CONTENT> in line "milestone-highfalutin" is 1., Parsed: 1, prompt length: 101042
+Label: 32408, Predict:  The <REGISTER_CONTENT> in line allowance-alphabet is 3.  The final answer is $\boxed{3}$., Parsed: 3, prompt length: 101058
+Label: 32408, Predict:  The <REGISTER_CONTENT> in line allowance-alphabet is 3.  The final answer is $\boxed{3}$., Parsed: 3, prompt length: 101058
+Label: 26505, Predict:  The <REGISTER_CONTENT> in line "clave-cream" is 27907., Parsed: 27907, prompt length: 101005
+Label: 26505, Predict:  The <REGISTER_CONTENT> in line "clave-cream" is 27907., Parsed: 27907, prompt length: 101005
+Label: 42970, Predict:  The <REGISTER_CONTENT> in line "lush-supreme" is 3., Parsed: 3, prompt length: 101045
+Label: 42970, Predict:  The <REGISTER_CONTENT> in line "lush-supreme" is 3., Parsed: 3, prompt length: 101045
+Label: 3805, Predict:  The <REGISTER_CONTENT> in line caution-ascertain is 3.  The final answer is $\boxed{3}$., Parsed: 3, prompt length: 101015
+Label: 3805, Predict:  The <REGISTER_CONTENT> in line caution-ascertain is 3.  The final answer is $\boxed{3}$., Parsed: 3, prompt length: 101015
+Label: 31938, Predict:  The <REGISTER_CONTENT> in line economic-anticipate is 3.  The final answer is $\boxed{3}$., Parsed: 3, prompt length: 101034
+Label: 31938, Predict:  The <REGISTER_CONTENT> in line economic-anticipate is 3.  The final answer is $\boxed{3}$., Parsed: 3, prompt length: 101034
+Label: 30791, Predict:  The <REGISTER_CONTENT> in line field-adaptable is <27794>., Parsed: 27794, prompt length: 101021
+Label: 30791, Predict:  The <REGISTER_CONTENT> in line field-adaptable is <27794>., Parsed: 27794, prompt length: 101021
+Label: 27575, Predict:  The <REGISTER_CONTENT> in line dramatic-delivery is <48233>., Parsed: 48233, prompt length: 101084
+Label: 27575, Predict:  The <REGISTER_CONTENT> in line dramatic-delivery is <48233>., Parsed: 48233, prompt length: 101084
+Label: 25037, Predict:  The <REGISTER_CONTENT> in line hiking-perfume is 0., Parsed: 0, prompt length: 101058
+Label: 25037, Predict:  The <REGISTER_CONTENT> in line hiking-perfume is 0., Parsed: 0, prompt length: 101058
+Label: 46809, Predict:  The <REGISTER_CONTENT> in line hops-fibre is 1. The number is 1., Parsed: 1, prompt length: 101033
+Label: 46809, Predict:  The <REGISTER_CONTENT> in line hops-fibre is 1. The number is 1., Parsed: 1, prompt length: 101033
+Label: 14503, Predict:  The <REGISTER_CONTENT> in line syndrome-boxspring is <49773>., Parsed: 49773, prompt length: 101029
+Label: 14503, Predict:  The <REGISTER_CONTENT> in line syndrome-boxspring is <49773>., Parsed: 49773, prompt length: 101029
+Label: 7119, Predict:  The <REGISTER_CONTENT> in line sparrow-creation is <25722>., Parsed: 25722, prompt length: 101043
+Label: 7119, Predict:  The <REGISTER_CONTENT> in line sparrow-creation is <25722>., Parsed: 25722, prompt length: 101043
+Label: 32561, Predict:  The <REGISTER_CONTENT> in line obnoxious-misplacement is <39505>., Parsed: 39505, prompt length: 101074
+Label: 32561, Predict:  The <REGISTER_CONTENT> in line obnoxious-misplacement is <39505>., Parsed: 39505, prompt length: 101074
+Label: 42725, Predict:  The <REGISTER_CONTENT> in line "smooth-tackle" is 1. It is the number that appears in the record.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 101040
+Label: 42725, Predict:  The <REGISTER_CONTENT> in line "smooth-tackle" is 1. It is the number that appears in the record.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 101040
+Label: 7114, Predict:  The <REGISTER_CONTENT> in line bathroom-omission is 0., Parsed: 0, prompt length: 101041
+Label: 7114, Predict:  The <REGISTER_CONTENT> in line bathroom-omission is 0., Parsed: 0, prompt length: 101041
+Label: 47546, Predict:  The <REGISTER_CONTENT> in line youngster-practitioner is 3., Parsed: 3, prompt length: 101055
+Label: 47546, Predict:  The <REGISTER_CONTENT> in line youngster-practitioner is 3., Parsed: 3, prompt length: 101055
+Label: 41880, Predict:  The <REGISTER_CONTENT> in line ATM-tepee is <38544>., Parsed: 38544, prompt length: 101044
+Label: 41880, Predict:  The <REGISTER_CONTENT> in line ATM-tepee is <38544>., Parsed: 38544, prompt length: 101044
+Label: 10431, Predict:  The <REGISTER_CONTENT> in line forager-med is <27138>., Parsed: 27138, prompt length: 101072
+Label: 10431, Predict:  The <REGISTER_CONTENT> in line forager-med is <27138>., Parsed: 27138, prompt length: 101072
+Label: 21074, Predict:  The <REGISTER_CONTENT> in line stiletto-tow-truck is 1. The line starts with "line stiletto-tow-truck: REGISTER_CONTENT is <1>" and ends with "REGISTER_CONTENT is <1>". The number is 1., Parsed: 1, prompt length: 101046
+Label: 21074, Predict:  The <REGISTER_CONTENT> in line stiletto-tow-truck is 1. The line starts with "line stiletto-tow-truck: REGISTER_CONTENT is <1>" and ends with "REGISTER_CONTENT is <1>". The number is 1., Parsed: 1, prompt length: 101046
+Label: 20835, Predict:  The <REGISTER_CONTENT> in line smelting-unfasten is 3., Parsed: 3, prompt length: 101014
+Label: 20835, Predict:  The <REGISTER_CONTENT> in line smelting-unfasten is 3., Parsed: 3, prompt length: 101014
+Label: 11684, Predict:  The <REGISTER_CONTENT> in line communist-godfather is 3., Parsed: 3, prompt length: 101012
+Label: 11684, Predict:  The <REGISTER_CONTENT> in line communist-godfather is 3., Parsed: 3, prompt length: 101012
+Label: 2161, Predict:  The <REGISTER_CONTENT> in line encyclopedia-adulthood is <6682>., Parsed: 6682, prompt length: 101072
+Label: 2161, Predict:  The <REGISTER_CONTENT> in line encyclopedia-adulthood is <6682>., Parsed: 6682, prompt length: 101072
+Label: 17830, Predict:  The <REGISTER_CONTENT> in line billion-consistency is 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, Parsed: 0, prompt length: 101048
+Label: 17830, Predict:  The <REGISTER_CONTENT> in line billion-consistency is 0.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000, Parsed: 0, prompt length: 101048
+Label: 34124, Predict:  The <REGISTER_CONTENT> in line ischemia-grill is <3815>., Parsed: 3815, prompt length: 101043
+Label: 34124, Predict:  The <REGISTER_CONTENT> in line ischemia-grill is <3815>., Parsed: 3815, prompt length: 101043
+Label: 49732, Predict:  The <REGISTER_CONTENT> in line harpsichord-see is 3.  The final answer is $\boxed{3}$., Parsed: 3, prompt length: 101055
+Label: 49732, Predict:  The <REGISTER_CONTENT> in line harpsichord-see is 3.  The final answer is $\boxed{3}$., Parsed: 3, prompt length: 101055
+Label: 13238, Predict:  The <REGISTER_CONTENT> in line pickaxe-romance is 3., Parsed: 3, prompt length: 101042
+Label: 13238, Predict:  The <REGISTER_CONTENT> in line pickaxe-romance is 3., Parsed: 3, prompt length: 101042
+Label: 48880, Predict:  The <REGISTER_CONTENT> in line attack-note is 4870., Parsed: 4870, prompt length: 101035
+Label: 48880, Predict:  The <REGISTER_CONTENT> in line attack-note is 4870., Parsed: 4870, prompt length: 101035
+Label: 20128, Predict:  The <REGISTER_CONTENT> in line ask-swan is <38955>., Parsed: 38955, prompt length: 101076
+Label: 20128, Predict:  The <REGISTER_CONTENT> in line ask-swan is <38955>., Parsed: 38955, prompt length: 101076
+Label: 43070, Predict:  The <REGISTER_CONTENT> in line nonchalant-enemy is 3., Parsed: 3, prompt length: 101028
+Label: 43070, Predict:  The <REGISTER_CONTENT> in line nonchalant-enemy is 3., Parsed: 3, prompt length: 101028
+Label: 18125, Predict:  The <REGISTER_CONTENT> in line infant-latte is 1. The line starts with "line infant-latte" and ends with "REGISTER_CONTENT". The number is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 101030
+Label: 18125, Predict:  The <REGISTER_CONTENT> in line infant-latte is 1. The line starts with "line infant-latte" and ends with "REGISTER_CONTENT". The number is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 101030
+Label: 1267, Predict:  The <REGISTER_CONTENT> in line tradition-development is 0., Parsed: 0, prompt length: 101050
+Label: 1267, Predict:  The <REGISTER_CONTENT> in line tradition-development is 0., Parsed: 0, prompt length: 101050
+Label: 44178, Predict:  The <REGISTER_CONTENT> in line "mainland-shame" is 16021., Parsed: 16021, prompt length: 101015
+Label: 44178, Predict:  The <REGISTER_CONTENT> in line "mainland-shame" is 16021., Parsed: 16021, prompt length: 101015
+Label: 14219, Predict:  The <REGISTER_CONTENT> in line fame-bolero is 1. The line starts with "line fame-bolero" and ends with "line fame-bolero". The <REGISTER_CONTENT> is the number 1., Parsed: 1, prompt length: 101044
+Label: 14219, Predict:  The <REGISTER_CONTENT> in line fame-bolero is 1. The line starts with "line fame-bolero" and ends with "line fame-bolero". The <REGISTER_CONTENT> is the number 1., Parsed: 1, prompt length: 101044
+Label: 18813, Predict:  The <REGISTER_CONTENT> in line seafood-episode is <4263>., Parsed: 4263, prompt length: 101035
+Label: 18813, Predict:  The <REGISTER_CONTENT> in line seafood-episode is <4263>., Parsed: 4263, prompt length: 101035
+Label: 29108, Predict:  The <REGISTER_CONTENT> in line cemetery-painter is <2459>., Parsed: 2459, prompt length: 101050
+Label: 29108, Predict:  The <REGISTER_CONTENT> in line cemetery-painter is <2459>., Parsed: 2459, prompt length: 101050
+Label: 43411, Predict:  The <REGISTER_CONTENT> in line 1 is 10. The <REGISTER_CONTENT> in line 2 is 12821. The <REGISTER_CONTENT> in line 3 is 12685. The <REGISTER_CONTENT> in line 4 is 37215. The <REGISTER_CONTENT> in line 5 is 8659. The <REGISTER_CONTENT> in line 6 is 47330. The <REGISTER_CONTENT> in line 7 is 37215. The <REGISTER, Parsed: 37215, prompt length: 101040
+Label: 43411, Predict:  The <REGISTER_CONTENT> in line 1 is 10. The <REGISTER_CONTENT> in line 2 is 12821. The <REGISTER_CONTENT> in line 3 is 12685. The <REGISTER_CONTENT> in line 4 is 37215. The <REGISTER_CONTENT> in line 5 is 8659. The <REGISTER_CONTENT> in line 6 is 47330. The <REGISTER_CONTENT> in line 7 is 37215. The <REGISTER, Parsed: 37215, prompt length: 101040
+Label: 12139, Predict:  The <REGISTER_CONTENT> in line fill-dud is 1., Parsed: 1, prompt length: 101068
+Label: 12139, Predict:  The <REGISTER_CONTENT> in line fill-dud is 1., Parsed: 1, prompt length: 101068
+Label: 7949, Predict:  The <REGISTER_CONTENT> in line financing-graffiti is <31467>., Parsed: 31467, prompt length: 101036
+Label: 7949, Predict:  The <REGISTER_CONTENT> in line financing-graffiti is <31467>., Parsed: 31467, prompt length: 101036
+Label: 7367, Predict:  The <REGISTER_CONTENT> in line clogs-entertaining is  <44616>., Parsed: 44616, prompt length: 101055
+Label: 7367, Predict:  The <REGISTER_CONTENT> in line clogs-entertaining is  <44616>., Parsed: 44616, prompt length: 101055
+Label: 34172, Predict:  The <REGISTER_CONTENT> in line pie-sweatsuit is <48012>., Parsed: 48012, prompt length: 101091
+Label: 34172, Predict:  The <REGISTER_CONTENT> in line pie-sweatsuit is <48012>., Parsed: 48012, prompt length: 101091
+Label: 21429, Predict:  The <REGISTER_CONTENT> in line "festive-password" is 3., Parsed: 3, prompt length: 101046
+Label: 21429, Predict:  The <REGISTER_CONTENT> in line "festive-password" is 3., Parsed: 3, prompt length: 101046
+Label: 200, Predict:  The <REGISTER_CONTENT> in line chard-activate is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 101011
+Label: 200, Predict:  The <REGISTER_CONTENT> in line chard-activate is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 101011
+Label: 23726, Predict:  The <REGISTER_CONTENT> in line 14 of the text is 14., Parsed: 14, prompt length: 101051
+Label: 23726, Predict:  The <REGISTER_CONTENT> in line 14 of the text is 14., Parsed: 14, prompt length: 101051
+Label: 28890, Predict:  The <REGISTER_CONTENT> in line "lookout-difference" is  <48015>., Parsed: 48015, prompt length: 101062
+Label: 28890, Predict:  The <REGISTER_CONTENT> in line "lookout-difference" is  <48015>., Parsed: 48015, prompt length: 101062
+Label: 36559, Predict:  The <REGISTER_CONTENT> in line comics-mRNA is 13167., Parsed: 13167, prompt length: 101026
+Label: 36559, Predict:  The <REGISTER_CONTENT> in line comics-mRNA is 13167., Parsed: 13167, prompt length: 101026
+Label: 13503, Predict:  The <REGISTER_CONTENT> in line proof-dynamic is <49047>., Parsed: 49047, prompt length: 101018
+Label: 13503, Predict:  The <REGISTER_CONTENT> in line proof-dynamic is <49047>., Parsed: 49047, prompt length: 101018
+Label: 4502, Predict:  The <REGISTER_CONTENT> in line twig-gamma-ray is <4889>., Parsed: 4889, prompt length: 101044
+Label: 4502, Predict:  The <REGISTER_CONTENT> in line twig-gamma-ray is <4889>., Parsed: 4889, prompt length: 101044
+Label: 30837, Predict:  The <REGISTER_CONTENT> in line video-pencil is <38655>., Parsed: 38655, prompt length: 101054
+Label: 30837, Predict:  The <REGISTER_CONTENT> in line video-pencil is <38655>., Parsed: 38655, prompt length: 101054
+Label: 12102, Predict:  The <REGISTER_CONTENT> in line bandanna-lemur is <44668>., Parsed: 44668, prompt length: 101027
+Label: 12102, Predict:  The <REGISTER_CONTENT> in line bandanna-lemur is <44668>., Parsed: 44668, prompt length: 101027
+Label: 49164, Predict:  The <REGISTER_CONTENT> in line big-stalk is <21183>., Parsed: 21183, prompt length: 101023
+Label: 49164, Predict:  The <REGISTER_CONTENT> in line big-stalk is <21183>., Parsed: 21183, prompt length: 101023
+Label: 40581, Predict:  The <REGISTER_CONTENT> in line flow-outlet is 40581., Parsed: 40581, prompt length: 101058
+Label: 40581, Predict:  The <REGISTER_CONTENT> in line flow-outlet is 40581., Parsed: 40581, prompt length: 101058
+Label: 24670, Predict:  The <REGISTER_CONTENT> in line certainty-pathway is <17544>., Parsed: 17544, prompt length: 101092
+Label: 24670, Predict:  The <REGISTER_CONTENT> in line certainty-pathway is <17544>., Parsed: 17544, prompt length: 101092
+Label: 36558, Predict:  The <REGISTER_CONTENT> in line fang-samurai is <48002>., Parsed: 48002, prompt length: 101072
+Label: 36558, Predict:  The <REGISTER_CONTENT> in line fang-samurai is <48002>., Parsed: 48002, prompt length: 101072
+Label: 37041, Predict:  The <REGISTER_CONTENT> in line "fierce-galley" is 1. It is the first line of the poem.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 101047
+Label: 37041, Predict:  The <REGISTER_CONTENT> in line "fierce-galley" is 1. It is the first line of the poem.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 101047
+Label: 32128, Predict:  The <REGISTER_CONTENT> in line tightfisted-nervous is 1. The number is 1., Parsed: 1, prompt length: 101063
+Label: 32128, Predict:  The <REGISTER_CONTENT> in line tightfisted-nervous is 1. The number is 1., Parsed: 1, prompt length: 101063
+Label: 40231, Predict:  The <REGISTER_CONTENT> in line "conclusion-grubby" is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 101074
+Label: 40231, Predict:  The <REGISTER_CONTENT> in line "conclusion-grubby" is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 101074
+Label: 3147, Predict:  The <REGISTER_CONTENT> in line "hurry-selling" is 1. It is the number of the line index., Parsed: 1, prompt length: 101049
+Label: 3147, Predict:  The <REGISTER_CONTENT> in line "hurry-selling" is 1. It is the number of the line index., Parsed: 1, prompt length: 101049
+Label: 21862, Predict:  The <REGISTER_CONTENT> in line 14 of the record is 47528., Parsed: 47528, prompt length: 101055
+Label: 21862, Predict:  The <REGISTER_CONTENT> in line 14 of the record is 47528., Parsed: 47528, prompt length: 101055
+Label: 20965, Predict:  The <REGISTER_CONTENT> in line crook-octet is <28135>., Parsed: 28135, prompt length: 101028
+Label: 20965, Predict:  The <REGISTER_CONTENT> in line crook-octet is <28135>., Parsed: 28135, prompt length: 101028
+Label: 6121, Predict:  The <REGISTER_CONTENT> in line accurate-vascular is 1., Parsed: 1, prompt length: 101015
+Label: 6121, Predict:  The <REGISTER_CONTENT> in line accurate-vascular is 1., Parsed: 1, prompt length: 101015
+Label: 22569, Predict:  The <REGISTER_CONTENT> in line machinery-market is <4906>., Parsed: 4906, prompt length: 101045
+Label: 22569, Predict:  The <REGISTER_CONTENT> in line machinery-market is <4906>., Parsed: 4906, prompt length: 101045
+Label: 46535, Predict:  The <REGISTER_CONTENT> in line fen-programme is <3296>., Parsed: 3296, prompt length: 101058
+Label: 46535, Predict:  The <REGISTER_CONTENT> in line fen-programme is <3296>., Parsed: 3296, prompt length: 101058
+Label: 20499, Predict:  The <REGISTER_CONTENT> in line icing-impression is <20073>., Parsed: 20073, prompt length: 101054
+Label: 20499, Predict:  The <REGISTER_CONTENT> in line icing-impression is <20073>., Parsed: 20073, prompt length: 101054
+Label: 36265, Predict:  The <REGISTER_CONTENT> in line compost-skeleton is <37204>., Parsed: 37204, prompt length: 101056
+Label: 36265, Predict:  The <REGISTER_CONTENT> in line compost-skeleton is <37204>., Parsed: 37204, prompt length: 101056
+Label: 1306, Predict:  The <REGISTER_CONTENT> in line circumference-bob is <33714>., Parsed: 33714, prompt length: 101083
+Label: 1306, Predict:  The <REGISTER_CONTENT> in line circumference-bob is <33714>., Parsed: 33714, prompt length: 101083
+Label: 16356, Predict:  The <REGISTER_CONTENT> in line worth-soybean is <38511>., Parsed: 38511, prompt length: 101053
+Label: 16356, Predict:  The <REGISTER_CONTENT> in line worth-soybean is <38511>., Parsed: 38511, prompt length: 101053
+Label: 32119, Predict:  The <REGISTER_CONTENT> in line lettuce-swordfish is <45474>., Parsed: 45474, prompt length: 101085
+Label: 32119, Predict:  The <REGISTER_CONTENT> in line lettuce-swordfish is <45474>., Parsed: 45474, prompt length: 101085
+Label: 36751, Predict:  The <REGISTER_CONTENT> in line grandma-keeper is <24649>., Parsed: 24649, prompt length: 101054
+Label: 36751, Predict:  The <REGISTER_CONTENT> in line grandma-keeper is <24649>., Parsed: 24649, prompt length: 101054
+Label: 21801, Predict:  The <REGISTER_CONTENT> in line metabolite-ark is <2468>., Parsed: 2468, prompt length: 101010
+Label: 21801, Predict:  The <REGISTER_CONTENT> in line metabolite-ark is <2468>., Parsed: 2468, prompt length: 101010
+Label: 1764, Predict:  The <REGISTER_CONTENT> in line suffer-panicky is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 101004
+Label: 1764, Predict:  The <REGISTER_CONTENT> in line suffer-panicky is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 101004
+Label: 20791, Predict:  The <REGISTER_CONTENT> in line composer-delivery is <49044>., Parsed: 49044, prompt length: 101048
+Label: 20791, Predict:  The <REGISTER_CONTENT> in line composer-delivery is <49044>., Parsed: 49044, prompt length: 101048
+Label: 6880, Predict:  The <REGISTER_CONTENT> in line slider-sponge is <40419>., Parsed: 40419, prompt length: 101059
+Label: 6880, Predict:  The <REGISTER_CONTENT> in line slider-sponge is <40419>., Parsed: 40419, prompt length: 101059
+Label: 11961, Predict:  The <REGISTER_CONTENT> in line tamale-mute is <14448>., Parsed: 14448, prompt length: 101070
+Label: 11961, Predict:  The <REGISTER_CONTENT> in line tamale-mute is <14448>., Parsed: 14448, prompt length: 101070
+Label: 23057, Predict:  The <REGISTER_CONTENT> in line fellow-injury is 3., Parsed: 3, prompt length: 101072
+Label: 23057, Predict:  The <REGISTER_CONTENT> in line fellow-injury is 3., Parsed: 3, prompt length: 101072
+Label: 36980, Predict:  The <REGISTER_CONTENT> in line 8 is 8., Parsed: 8, prompt length: 100999
+Label: 36980, Predict:  The <REGISTER_CONTENT> in line 8 is 8., Parsed: 8, prompt length: 100999
+Label: 45108, Predict:  The <REGISTER_CONTENT> in line ladder-elephant is 1., Parsed: 1, prompt length: 101064
+Label: 45108, Predict:  The <REGISTER_CONTENT> in line ladder-elephant is 1., Parsed: 1, prompt length: 101064
+Label: 13459, Predict:  The <REGISTER_CONTENT> in line beech-spurious is <15845>., Parsed: 15845, prompt length: 101057
+Label: 13459, Predict:  The <REGISTER_CONTENT> in line beech-spurious is <15845>., Parsed: 15845, prompt length: 101057
+Label: 34353, Predict:  The <REGISTER_CONTENT> in line destiny-hapless is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 101003
+Label: 34353, Predict:  The <REGISTER_CONTENT> in line destiny-hapless is 1.  The final answer is $\boxed{1}$., Parsed: 1, prompt length: 101003
+Label: 4803, Predict:  The <REGISTER_CONTENT> in line armpit-wicked is 0., Parsed: 0, prompt length: 101044
+Label: 4803, Predict:  The <REGISTER_CONTENT> in line armpit-wicked is 0., Parsed: 0, prompt length: 101044
+Label: 45850, Predict:  The <REGISTER_CONTENT> in line trout-comfort is 1. The line starts with "Got any creative ideas for a 10 year old's birthday?" and then continues with "I was thinking of a treasure hunt, a science party, an outdoor movie night, a DIY crafts party, a sports Olympics, a cooking party, a superhero training camp, an outdoor adventure, an outdoor adventure, an outdoor adventure, an outdoor adventure, an outdoor adventure, an outdoor adventure, an outdoor adventure,, Parsed: 10, prompt length: 101052
+Accuracy: 0.01, Ave Prompt Length: 101044.76000000004Label: 45850, Predict:  The <REGISTER_CONTENT> in line trout-comfort is 1. The line starts with "Got any creative ideas for a 10 year old's birthday?" and then continues with "I was thinking of a treasure hunt, a science party, an outdoor movie night, a DIY crafts party, a sports Olympics, a cooking party, a superhero training camp, an outdoor adventure, an outdoor adventure, an outdoor adventure, an outdoor adventure, an outdoor adventure, an outdoor adventure, an outdoor adventure,, Parsed: 10, prompt length: 101052
+Accuracy: 0.01, Ave Prompt Length: 101044.76000000004
