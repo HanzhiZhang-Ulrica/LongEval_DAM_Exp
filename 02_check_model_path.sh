@@ -2,11 +2,11 @@
 
 # Define the array of model names
 model_names=(
-    "model/HanzhiZhang_H2O-llama-model"
-    "model/HanzhiZhang_StreamingLLM-llama-model"
-    "model/HanzhiZhang_MoA-llama-model"
-    "model/HanzhiZhang_DAM_0.99"
-    "model/meta-llama_Llama-3.2-3B-Instruct"
+    "model/HanzhiZhang_H2O_LLaMA_1B"
+    "model/HanzhiZhang_StreamingLLM_LLaMA_1B"
+    "model/HanzhiZhang_MoA_LLaMA_1B"
+    "model/HanzhiZhang_DAM_LLaMA_1B"
+    "model/meta-llama_Llama-3.2-1B-Instruct"
 )
 
 # Iterate over each model and check for config.json

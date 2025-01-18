@@ -241,7 +241,7 @@ def test_lines_one_sample(model, tokenizer, test_case, output_file, idx, args):
             conv = get_conversation_template("vicuna")
         else:
             conv = get_conversation_template(args.model_name_or_path)
-        print(f"Using conversation template: {conv.name}")
+        # print(f"Using conversation template: {conv.name}")
 
         if "mosaicml/mpt-30b-chat" in args.model_name_or_path:
             prompt += f'Answer in the format <{test_case["random_idx"][0]}> <REGISTER_CONTENT>.'
@@ -267,11 +267,11 @@ def test_lines_one_sample(model, tokenizer, test_case, output_file, idx, args):
     if response_number is not None and len(response_number) > 0:
         response_number = int(response_number[-1])
     else:
-        print(f"Got unparsable result")
+        # print(f"Got unparsable result")
         response_number = -1
 
     summary = f"Label: {expected_number}, Predict: {output}, Parsed: {response_number}, prompt length: {prompt_length}".replace('\n', ' ')
-    print(summary)
+    # print(summary)
     if idx ==0:
         with open(output_file, "w") as f:
             f.write(summary)

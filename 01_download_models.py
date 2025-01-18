@@ -1,5 +1,5 @@
 import argparse
-from transformers import AutoModel, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer
 import os
 
 def download_models(model_names, save_dir):
@@ -18,7 +18,7 @@ def download_models(model_names, save_dir):
         model_path = os.path.join(save_dir, model_name.replace('/', '_'))
 
         # Download and save model
-        model = AutoModel.from_pretrained(model_name)
+        model = AutoModelForCausalLM.from_pretrained(model_name)
         model.save_pretrained(model_path)
 
         # Download and save tokenizer
@@ -33,11 +33,11 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     models = [
-        "HanzhiZhang/H2O-llama-model",
-        "HanzhiZhang/StreamingLLM-llama-model",
-        "HanzhiZhang/MoA-llama-model",
-        "HanzhiZhang/DAM_0.99",
-        "meta-llama/Llama-3.2-3B-Instruct",
+        "HanzhiZhang/H2O_LLaMA_1B",
+        "HanzhiZhang/StreamingLLM_LLaMA_1B",
+        "HanzhiZhang/MoA_LLaMA_1B",
+        "HanzhiZhang/DAM_LLaMA_1B",
+        "meta-llama/Llama-3.2-1B-Instruct",
     ]
 
     download_models(models, args.model_path)
