@@ -2,12 +2,14 @@ import os
 import re
 import matplotlib.pyplot as plt
 
+tpe = "1B"
+ite = "1"
 # List of model names
 model_names = [
-    "meta-llama_Llama-3.2-1B-Instruct", "HanzhiZhang_DAM_LLaMA_1B", "HanzhiZhang_H2O_LLaMA_1B", 
-    "HanzhiZhang_MoA_LLaMA_1B", "HanzhiZhang_StreamingLLM_LLaMA_1B"
+    f"meta-llama_Llama-3.2-{tpe}-Instruct", f"HanzhiZhang_DAM_LLaMA_{tpe}", f"HanzhiZhang_H2O_LLaMA_{tpe}", 
+    f"HanzhiZhang_MoA_LLaMA_{tpe}", f"HanzhiZhang_StreamingLLM_LLaMA_{tpe}"
 ]
-output_file = "outputs/all_models_lines.txt"
+output_file = f"outputs/all_models_lines_{tpe}.txt"
 
 def extract_values(line):
     match = re.search(r"Accuracy: ([0-9\.]+), Ave Prompt Length: ([0-9\.]+)", line)
@@ -20,7 +22,7 @@ def extract_values(line):
 # Process each model
 all_results = {}
 for model_name in model_names:
-    folder_path = f"LongEval/evaluation/lines_1/predictions/{model_name}/"
+    folder_path = f"LongEval/evaluation/lines_{ite}/predictions/{model_name}/"
     model_results = []
     for filename in sorted(os.listdir(folder_path)):
         if filename.endswith(".txt"):
@@ -94,9 +96,9 @@ plt.ylabel("Accuracy", fontsize=14)
 plt.legend(fontsize=12)
 plt.grid(alpha=0.3)
 plt.savefig(
-    "outputs/all_models_lines.pdf", 
+    f"outputs/all_models_lines_{tpe}.pdf", 
     format='pdf', 
     bbox_inches='tight')
 plt.close()
 
-print("Plot saved to outputs/all_models_lines.pdf")
+print("done!")
