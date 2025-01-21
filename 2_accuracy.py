@@ -93,7 +93,10 @@ plt.xlabel("Lines", fontsize=14)
 plt.ylabel("Accuracy", fontsize=14)
 plt.legend(fontsize=12)
 plt.grid(alpha=0.3)
-plt.savefig("outputs/all_models_lines.pdf", format='pdf')
+plt.savefig(
+    "outputs/all_models_lines.pdf", 
+    format='pdf', 
+    bbox_inches='tight')
 plt.close()
 
 print("Plot saved to outputs/all_models_lines.pdf")
