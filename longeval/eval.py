@@ -27,9 +27,9 @@ def longeval_test(model, tokenizer, output_dir, args):
             print(f"************ Finish testing {num_topics} topics per prompt with average prompt length {avg_length} ************")
             if args.eval_shortest_only:
                 break
-            # , 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100, 2200, 2300, 2400, 2500, 2600, 2700, 2800, 2900, 3000, 3100, 3200, 3300, 3400, 3500, 3600, 3700, 3800, 3900, 4000, 4100, 4200, 4300, 4400, 4500, 4600, 4700, 4800, 4900, 5000, 5100, 5200, 5300, 5400, 5500, 5600, 5700, 5800, 5900, 6000, 6100, 6200, 6300, 6400, 6500, 6600, 6700, 6800, 6900, 7000, 7100, 7200, 7300, 7400, 7500, 7600, 7700, 7800, 7900, 8000, 8100
+            
     elif args.task == "lines":
-        for num_lines in [200, 300, 400, 500, 600, 700, 800, 900, 1000]:
+        for num_lines in [200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100, 2200, 2300, 2400, 2500, 2600, 2700, 2800, 2900, 3000, 3100, 3200, 3300, 3400, 3500, 3600, 3700, 3800, 3900, 4000, 4100, 4200, 4300, 4400, 4500, 4600, 4700, 4800, 4900, 5000, 5100, 5200, 5300, 5400, 5500, 5600, 5700, 5800, 5900, 6000, 6100, 6200, 6300, 6400, 6500, 6600, 6700, 6800, 6900, 7000, 7100, 7200, 7300, 7400, 7500, 7600, 7700, 7800, 7900, 8000, 8100]:
             print(f"************ Start testing {num_lines} lines per LRT prompt ************")
             test_file = os.path.join(args.test_dir, f"lines/testcases/{num_lines}_lines.jsonl")
             
@@ -64,7 +64,7 @@ if __name__ == "__main__":
     parser.add_argument("--eval_shortest_only", action='store_true', default=0, help="Only eval the shortest case for illustration purpose")
     parser.add_argument("--test_dir", type=str, default="evaluation", help="Directory of the testcases")
     parser.add_argument("--framework", type=str, default=None, help="Framework for serving")
-    parser.add_argument("--count", type=str, default="test", help="Iteration Count")
+    parser.add_argument("--count", type=str, default="1", help="Iteration Count")
     args = parser.parse_args()
 
     maybe_monkey_patch(args)

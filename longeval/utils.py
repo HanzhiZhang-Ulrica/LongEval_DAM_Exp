@@ -91,8 +91,15 @@ def get_output_dir(args):
 def longeval_load_model(args):
 
     if args.framework is not None:
-        tokenizer = transformers.AutoTokenizer.from_pretrained(args.model_name_or_path)
+        tokenizer = transformers.AutoTokenizer.from_pretrained(args.model_name_or_path, trust_remote_code=True)
         return APIModel(args.model_name_or_path, framework=args.framework), tokenizer
+    
+    if "DAM" in args.model_name_or_path:
+        # This branch loads your DAM model with the custom DAM attention.
+        # trust_remote_code=True is essential to load modeling_dam_llama.py and your custom classes.
+        tokenizer = transformers.AutoTokenizer.from_pretrained(args.model_name_or_path, trust_remote_code=True)
+        model = transformers.AutoModelForCausalLM.from_pretrained(args.model_name_or_path, trust_remote_code=True).to("cuda")
+        return model, tokenizer
 
     if "mosaicml/mpt-7b-storywriter" in args.model_name_or_path:
         # Adapt from: https://huggingface.co/mosaicml/mpt-7b-storywriter
