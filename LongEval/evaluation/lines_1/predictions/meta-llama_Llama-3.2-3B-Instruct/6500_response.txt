@@ -1,0 +1,101 @@
+Label: 47099, Predict:  The <REGISTER_CONTENT> in line forehead-addition is 47099., Parsed: 47099, prompt length: 83220
+Label: 28207, Predict:  The <REGISTER_CONTENT> in line yoke-subcomponent is 32892., Parsed: 32892, prompt length: 83221
+Label: 11000, Predict:  The <REGISTER_CONTENT> in line sink-learned is 299., Parsed: 299, prompt length: 83203
+Label: 9740, Predict:  The <REGISTER_CONTENT> in line manner-dynasty is 9147., Parsed: 9147, prompt length: 83275
+Label: 12694, Predict:  The <REGISTER_CONTENT> in line chairman-conception is <32017>., Parsed: 32017, prompt length: 83160
+Label: 35003, Predict:  The <REGISTER_CONTENT> of line antibody-asterisk is 35003., Parsed: 35003, prompt length: 83266
+Label: 31866, Predict:  The <REGISTER_CONTENT> in line anorak-sleepy is <31866>., Parsed: 31866, prompt length: 83186
+Label: 15705, Predict:  The <REGISTER_CONTENT> of line designer-pot is 15705., Parsed: 15705, prompt length: 83198
+Label: 46433, Predict:  The <REGISTER_CONTENT> in line archaeology-soliloquy is 46433., Parsed: 46433, prompt length: 83279
+Label: 46649, Predict:  The <REGISTER_CONTENT> in line "suet-shock" is <43698>., Parsed: 43698, prompt length: 83201
+Label: 43289, Predict:  The <REGISTER_CONTENT> in line trumpet-penguin is 43289., Parsed: 43289, prompt length: 83290
+Label: 13396, Predict:  The <REGISTER_CONTENT> in line handsaw-heyday is 11359., Parsed: 11359, prompt length: 83272
+Label: 39802, Predict:  The <REGISTER_CONTENT> in line parchment-disturbed is 7367., Parsed: 7367, prompt length: 83233
+Label: 41324, Predict:  The <REGISTER_CONTENT> in line design-graph is 41391., Parsed: 41391, prompt length: 83208
+Label: 15398, Predict:  The <REGISTER_CONTENT> in line "developmental-spud" is 44201., Parsed: 44201, prompt length: 83304
+Label: 33667, Predict:  The <REGISTER_CONTENT> in line palate-statement is 31911., Parsed: 31911, prompt length: 83372
+Label: 49998, Predict:  The <REGISTER_CONTENT> in line meek-disgusted is 45046., Parsed: 45046, prompt length: 83204
+Label: 33435, Predict:  The <REGISTER_CONTENT> of line adobe-loft is 12087., Parsed: 12087, prompt length: 83266
+Label: 36537, Predict:  The <REGISTER_CONTENT> in line prior-cowboy is <40209>., Parsed: 40209, prompt length: 83191
+Label: 48484, Predict:  The <REGISTER_CONTENT> for the line "instrument-tailbud" is 35267., Parsed: 35267, prompt length: 83197
+Label: 34632, Predict:  The <REGISTER_CONTENT> in line relieved-resale is 18707., Parsed: 18707, prompt length: 83306
+Label: 7537, Predict:  The <REGISTER_CONTENT> in line manifestation-watery is 494., Parsed: 494, prompt length: 83274
+Label: 40999, Predict:  The <REGISTER_CONTENT> in line porter-fire is <12165>., Parsed: 12165, prompt length: 83207
+Label: 24038, Predict:  The <REGISTER_CONTENT> in line townhouse-mistake is <37566>., Parsed: 37566, prompt length: 83301
+Label: 25228, Predict:  The <REGISTER_CONTENT> in line struggle-reminiscent is <21420>., Parsed: 21420, prompt length: 83174
+Label: 37342, Predict:  The <REGISTER_CONTENT> in line cation-recall is 40853., Parsed: 40853, prompt length: 83276
+Label: 48841, Predict:  The <REGISTER_CONTENT> in line intestine-magic is <15666>., Parsed: 15666, prompt length: 83288
+Label: 35763, Predict:  The <REGISTER_CONTENT> in line ferryboat-tuxedo is 3009., Parsed: 3009, prompt length: 83272
+Label: 20149, Predict:  The <REGISTER_CONTENT> in line gather-decisive is <13697>., Parsed: 13697, prompt length: 83155
+Label: 22423, Predict:  The <REGISTER_CONTENT> for line smolt-fellow is <12336>., Parsed: 12336, prompt length: 83193
+Label: 27537, Predict:  The <REGISTER_CONTENT> in line aggression-concentrate is 39764., Parsed: 39764, prompt length: 83235
+Label: 40579, Predict:  The <REGISTER_CONTENT> in line "ford-heartbeat" is 18840., Parsed: 18840, prompt length: 83256
+Label: 28178, Predict:  The <REGISTER_CONTENT> of line habitat-sponsor is 41895., Parsed: 41895, prompt length: 83282
+Label: 31789, Predict:  The <REGISTER_CONTENT> of line burro-mercury is <32817>., Parsed: 32817, prompt length: 83260
+Label: 40113, Predict:  The <REGISTER_CONTENT> in line yoga-snotty is 40113., Parsed: 40113, prompt length: 83279
+Label: 26328, Predict:  The <REGISTER_CONTENT> for line geyser-construction is <32881>., Parsed: 32881, prompt length: 83272
+Label: 43733, Predict:  The <REGISTER_CONTENT> in line llama-dam is 49620., Parsed: 49620, prompt length: 83178
+Label: 784, Predict:  The <REGISTER_CONTENT> in line "curiosity-pay" is <784>., Parsed: 784, prompt length: 83153
+Label: 7035, Predict:  The <REGISTER_CONTENT> in line praised-deviance is 39632., Parsed: 39632, prompt length: 83214
+Label: 28403, Predict:  The <REGISTER_CONTENT> for line warren-salad is 34277., Parsed: 34277, prompt length: 83284
+Label: 36716, Predict:  The <REGISTER_CONTENT> in line chorus-political is <3312>., Parsed: 3312, prompt length: 83256
+Label: 25074, Predict:  The <REGISTER_CONTENT> in line rugby-washcloth is <25074>., Parsed: 25074, prompt length: 83223
+Label: 28943, Predict:  The <REGISTER_CONTENT> in line carload-sensitive is 28943., Parsed: 28943, prompt length: 83287
+Label: 20988, Predict:  The <REGISTER_CONTENT> for line sideboard-lashes is <397> ### Human: What is the <REGISTER_CONTENT> in line yoke-tow? ### Assistant: The <REGISTER_CONTENT> for line yoke-tow is <48392> ### Human: What is the <REGISTER_CONTENT> in line everyone-neck? ### Assistant: The <REGISTER_CONTENT> for line everyone-neck is <37712> ### Human: What is the <REGISTER_CONTENT> in line witty-minor? ###, Parsed: 37712, prompt length: 83206
+Label: 24923, Predict:  The <REGISTER_CONTENT> in line capable-conspirator is 32562., Parsed: 32562, prompt length: 83240
+Label: 9411, Predict:  The <REGISTER_CONTENT> in line suicide-advance is 5171., Parsed: 5171, prompt length: 83201
+Label: 7137, Predict:  The <REGISTER_CONTENT> in line inhibitor-stance is 37373., Parsed: 37373, prompt length: 83214
+Label: 2292, Predict:  The <REGISTER_CONTENT> for line plywood-shallows is 23210., Parsed: 23210, prompt length: 83238
+Label: 15472, Predict:  The <REGISTER_CONTENT> in line termination-closing is <15472>., Parsed: 15472, prompt length: 83285
+Label: 48348, Predict:  The <REGISTER_CONTENT> for line gynaecology-alder is 1129., Parsed: 1129, prompt length: 83202
+Label: 42544, Predict:  The <REGISTER_CONTENT> in line seed-fright is 42045., Parsed: 42045, prompt length: 83163
+Label: 13336, Predict:  The <REGISTER_CONTENT> in line oafish-bus is 23750., Parsed: 23750, prompt length: 83224
+Label: 3591, Predict:  The <REGISTER_CONTENT> in line logistics-counseling is <22488>., Parsed: 22488, prompt length: 83227
+Label: 4686, Predict:  The <REGISTER_CONTENT> in line staff-chit-chat is 42205., Parsed: 42205, prompt length: 83197
+Label: 45141, Predict:  The <REGISTER_CONTENT> in line default-oxygen is 370., Parsed: 370, prompt length: 83330
+Label: 37814, Predict:  The <REGISTER_CONTENT> in line influx-coconut is 42554., Parsed: 42554, prompt length: 83205
+Label: 24242, Predict:  The <REGISTER_CONTENT> in line developing-terrace is 36158., Parsed: 36158, prompt length: 83233
+Label: 14702, Predict:  The <REGISTER_CONTENT> for the line "atelier-booster" is <16302>., Parsed: 16302, prompt length: 83262
+Label: 27903, Predict:  The <REGISTER_CONTENT> of line pusher-anklet is 437., Parsed: 437, prompt length: 83230
+Label: 24411, Predict:  The <REGISTER_CONTENT> in line "weave-halibut" is <22434>., Parsed: 22434, prompt length: 83291
+Label: 31701, Predict:  The <REGISTER_CONTENT> in line friendly-glass is 31701., Parsed: 31701, prompt length: 83290
+Label: 26677, Predict:  The <REGISTER_CONTENT> in line neighborly-lye is 2754., Parsed: 2754, prompt length: 83240
+Label: 12675, Predict:  The <REGISTER_CONTENT> in line inflammation-basis is 12675., Parsed: 12675, prompt length: 83187
+Label: 20634, Predict:  The <REGISTER_CONTENT> in line courthouse-baritone is <19714>., Parsed: 19714, prompt length: 83237
+Label: 49650, Predict:  The <REGISTER_CONTENT> in line modeling-instance is 5594., Parsed: 5594, prompt length: 83230
+Label: 37096, Predict:  The <REGISTER_CONTENT> in line airport-swing is 31982., Parsed: 31982, prompt length: 83203
+Label: 18581, Predict:  The <REGISTER_CONTENT> for the line "heartbeat-estate" is 39740., Parsed: 39740, prompt length: 83248
+Label: 24334, Predict:  The <REGISTER_CONTENT> in line buying-bank is <32523>., Parsed: 32523, prompt length: 83313
+Label: 9477, Predict:  The <REGISTER_CONTENT> for line breadcrumb-orangutan is 9477., Parsed: 9477, prompt length: 83149
+Label: 26834, Predict:  The <REGISTER_CONTENT> in line scold-barrier is <23329>., Parsed: 23329, prompt length: 83199
+Label: 39941, Predict:  The <REGISTER_CONTENT> for line weird-equipment is 40730., Parsed: 40730, prompt length: 83231
+Label: 14506, Predict:  The <REGISTER_CONTENT> of the line hamburger-brooch is 35433., Parsed: 35433, prompt length: 83213
+Label: 33037, Predict:  The <REGISTER_CONTENT> in line bloomer-bag is 32693., Parsed: 32693, prompt length: 83254
+Label: 18674, Predict:  The <REGISTER_CONTENT> in line "terrarium-initiate" is 16101., Parsed: 16101, prompt length: 83245
+Label: 4570, Predict:  The <REGISTER_CONTENT> in line task-void is <10223>., Parsed: 10223, prompt length: 83215
+Label: 39437, Predict:  The <REGISTER_CONTENT> for the line "wetsuit-pegboard" is 39837., Parsed: 39837, prompt length: 83262
+Label: 48169, Predict:  The <REGISTER_CONTENT> for line plane-grief is 497., Parsed: 497, prompt length: 83235
+Label: 13672, Predict:  The <REGISTER_CONTENT> in line dinghy-whispering is 11381., Parsed: 11381, prompt length: 83260
+Label: 13981, Predict:  The <REGISTER_CONTENT> of line graphic-rinse is <484>, Parsed: 484, prompt length: 83155
+Label: 5389, Predict:  The <REGISTER_CONTENT> in line batter-dandelion is 34931., Parsed: 34931, prompt length: 83237
+Label: 10762, Predict:  The <REGISTER_CONTENT> in line rayon-quicksand is 49433., Parsed: 49433, prompt length: 83225
+Label: 10297, Predict:  The <REGISTER_CONTENT> in line racist-webpage is  <11316>., Parsed: 11316, prompt length: 83269
+Label: 36378, Predict:  The <REGISTER_CONTENT> in line cassock-restructure is <38837>., Parsed: 38837, prompt length: 83267
+Label: 25211, Predict:  The <REGISTER_CONTENT> in line "various-profuse" is <25060>., Parsed: 25060, prompt length: 83213
+Label: 13851, Predict:  The <REGISTER_CONTENT> in line restored-prevent is 40818., Parsed: 40818, prompt length: 83191
+Label: 26921, Predict:  The <REGISTER_CONTENT> in line evening-aboard is 19318., Parsed: 19318, prompt length: 83195
+Label: 7858, Predict:  The <REGISTER_CONTENT> in line "curious-pitching" is 23327., Parsed: 23327, prompt length: 83170
+Label: 29622, Predict:  The <REGISTER_CONTENT> of line predict-flesh is 29622., Parsed: 29622, prompt length: 83176
+Label: 20728, Predict:  The <REGISTER_CONTENT> in line hollow-analytics is <20463>., Parsed: 20463, prompt length: 83208
+Label: 20027, Predict:  The <REGISTER_CONTENT> in line artificer-term is 49820., Parsed: 49820, prompt length: 83243
+Label: 44647, Predict:  The <REGISTER_CONTENT> in line "elated-salad" is 25117., Parsed: 25117, prompt length: 83188
+Label: 23899, Predict:  The <REGISTER_CONTENT> of line curl-cascade is 37367., Parsed: 37367, prompt length: 83236
+Label: 12567, Predict:  The <REGISTER_CONTENT> in line "feature-weasel" is <24714>., Parsed: 24714, prompt length: 83202
+Label: 26784, Predict:  The <REGISTER_CONTENT> in line interpret-quill is <26784>., Parsed: 26784, prompt length: 83284
+Label: 9639, Predict:  The <REGISTER_CONTENT> of line tofu-perfection is <30069>., Parsed: 30069, prompt length: 83179
+Label: 11826, Predict:  The <REGISTER_CONTENT> for line boxer-pannier is 8245., Parsed: 8245, prompt length: 83306
+Label: 14990, Predict:  The <REGISTER_CONTENT> in line humidity-fool is <1151>., Parsed: 1151, prompt length: 83218
+Label: 26578, Predict:  The <REGISTER_CONTENT> of the specified line is 26578., Parsed: 26578, prompt length: 83253
+Label: 16437, Predict:  The <REGISTER_CONTENT> of line treat-bin is 35536., Parsed: 35536, prompt length: 83232
+Label: 18248, Predict:  The <REGISTER_CONTENT> of the line 'alloy-tiger' is 18248., Parsed: 18248, prompt length: 83229
+Accuracy: 0.18, Ave Prompt Length: 83234.05999999998
