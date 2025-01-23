@@ -1,0 +1,15 @@
+{"model_name": "/lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/HanzhiZhang_H2O_LLaMA_1B", "num_iters": 100, "batch_size": 4, "test_mode": "whole", "prefill_len": 6000, "decode_len": 64, "elapsed_time_ms": 157314.23, "time_per_iter_ms": 1573.14, "time_per_token_ms": 0.06, "throughput_tokens_s": 15418.82, "max_gpu_mem_mb": 26383}
+{"model_name": "/lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/HanzhiZhang_StreamingLLM_LLaMA_1B", "num_iters": 100, "batch_size": 4, "test_mode": "whole", "prefill_len": 6000, "decode_len": 64, "elapsed_time_ms": 157708.27, "time_per_iter_ms": 1577.08, "time_per_token_ms": 0.07, "throughput_tokens_s": 15380.3, "max_gpu_mem_mb": 26384}
+{"model_name": "/lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/HanzhiZhang_MoA_LLaMA_1B", "num_iters": 100, "batch_size": 4, "test_mode": "whole", "prefill_len": 6000, "decode_len": 64, "elapsed_time_ms": 157892.16, "time_per_iter_ms": 1578.92, "time_per_token_ms": 0.07, "throughput_tokens_s": 15362.38, "max_gpu_mem_mb": 26384}
+{"model_name": "/lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/HanzhiZhang_DAM_LLaMA_1B", "num_iters": 100, "batch_size": 4, "test_mode": "whole", "prefill_len": 6000, "decode_len": 64, "elapsed_time_ms": 143678.09, "time_per_iter_ms": 1436.78, "time_per_token_ms": 0.06, "throughput_tokens_s": 16882.18, "max_gpu_mem_mb": 17321}
+{"model_name": "/lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/meta-llama_Llama-3.2-1B-Instruct", "num_iters": 100, "batch_size": 4, "test_mode": "whole", "prefill_len": 6000, "decode_len": 64, "elapsed_time_ms": 143717.05, "time_per_iter_ms": 1437.17, "time_per_token_ms": 0.06, "throughput_tokens_s": 16877.61, "max_gpu_mem_mb": 17321}
+
+Summary Table:
+---------------------------------------------------------------------------
+ Model Name                          | Elapsed (ms) | ms/iter | ms/token | Thpt(tok/s) | MaxMem(MB)
+---------------------------------------------------------------------------
+ /lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/HanzhiZhang_H2O_LLaMA_1B |   157314.23 | 1573.14 |     0.06 |    15418.82 |      26383
+ /lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/HanzhiZhang_StreamingLLM_LLaMA_1B |   157708.27 | 1577.08 |     0.07 |    15380.30 |      26384
+ /lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/HanzhiZhang_MoA_LLaMA_1B |   157892.16 | 1578.92 |     0.07 |    15362.38 |      26384
+ /lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/HanzhiZhang_DAM_LLaMA_1B |   143678.09 | 1436.78 |     0.06 |    16882.18 |      17321
+ /lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/meta-llama_Llama-3.2-1B-Instruct |   143717.05 | 1437.17 |     0.06 |    16877.61 |      17321

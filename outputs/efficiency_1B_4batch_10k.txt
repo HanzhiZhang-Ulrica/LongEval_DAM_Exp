@@ -1,0 +1,15 @@
+{"model_name": "/lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/HanzhiZhang_H2O_LLaMA_1B", "elapsed_time_ms": "OOM", "time_per_iter_ms": "OOM", "time_per_token_ms": "OOM", "throughput_tokens_s": "OOM", "max_gpu_mem_mb": "OOM"}
+{"model_name": "/lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/HanzhiZhang_StreamingLLM_LLaMA_1B", "elapsed_time_ms": "OOM", "time_per_iter_ms": "OOM", "time_per_token_ms": "OOM", "throughput_tokens_s": "OOM", "max_gpu_mem_mb": "OOM"}
+{"model_name": "/lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/HanzhiZhang_MoA_LLaMA_1B", "elapsed_time_ms": "OOM", "time_per_iter_ms": "OOM", "time_per_token_ms": "OOM", "throughput_tokens_s": "OOM", "max_gpu_mem_mb": "OOM"}
+{"model_name": "/lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/HanzhiZhang_DAM_LLaMA_1B", "num_iters": 100, "batch_size": 4, "test_mode": "whole", "prefill_len": 10000, "decode_len": 64, "elapsed_time_ms": 218350.27, "time_per_iter_ms": 2183.5, "time_per_token_ms": 0.05, "throughput_tokens_s": 18436.43, "max_gpu_mem_mb": 27271}
+{"model_name": "/lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/meta-llama_Llama-3.2-1B-Instruct", "num_iters": 100, "batch_size": 4, "test_mode": "whole", "prefill_len": 10000, "decode_len": 64, "elapsed_time_ms": 218334.64, "time_per_iter_ms": 2183.35, "time_per_token_ms": 0.05, "throughput_tokens_s": 18437.75, "max_gpu_mem_mb": 27271}
+
+Summary Table:
+---------------------------------------------------------------------------
+ Model Name                          | Elapsed (ms) | ms/iter | ms/token | Thpt(tok/s) | MaxMem(MB)
+---------------------------------------------------------------------------
+ /lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/HanzhiZhang_H2O_LLaMA_1B |         OOM |     OOM |      OOM |         OOM |        OOM
+ /lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/HanzhiZhang_StreamingLLM_LLaMA_1B |         OOM |     OOM |      OOM |         OOM |        OOM
+ /lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/HanzhiZhang_MoA_LLaMA_1B |         OOM |     OOM |      OOM |         OOM |        OOM
+ /lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/HanzhiZhang_DAM_LLaMA_1B |   218350.27 | 2183.50 |     0.05 |    18436.43 |      27271
+ /lus/eagle/projects/LLM_multilang/DAM/DAM/LongEval_DAM_Exp/model/meta-llama_Llama-3.2-1B-Instruct |   218334.64 | 2183.35 |     0.05 |    18437.75 |      27271

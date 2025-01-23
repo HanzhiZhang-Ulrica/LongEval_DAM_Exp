@@ -1,0 +1,101 @@
+Label: 47981, Predict:  The <REGISTER_CONTENT> in line acknowledgment-seek is: 47981., Parsed: 47981, prompt length: 94721
+Label: 29443, Predict:  The <REGISTER_CONTENT> in line gazebo-broiler is 49392., Parsed: 49392, prompt length: 94704
+Label: 46609, Predict:   The <REGISTER_CONTENT> in line center-thoughtful is <1842>, Parsed: 1842, prompt length: 94665
+Label: 10099, Predict:  The <REGISTER_CONTENT> in line "stranger-wrapper" is 44975., Parsed: 44975, prompt length: 94636
+Label: 31966, Predict:  The <REGISTER_CONTENT> in line hydroxyl-wheel is 3974., Parsed: 3974, prompt length: 94725
+Label: 34551, Predict:  The <REGISTER_CONTENT> in line 'line bun-bunch: REGISTER_CONTENT is <34444>' is 34444., Parsed: 34444, prompt length: 94697
+Label: 24848, Predict:  The <REGISTER_CONTENT> in line pollution-compliance is 388., Parsed: 388, prompt length: 94695
+Label: 5486, Predict:  The <REGISTER_CONTENT> of line pastoral-in-joke is 1634., Parsed: 1634, prompt length: 94662
+Label: 20611, Predict:  The <REGISTER_CONTENT> in line distribution-heroine is 44501., Parsed: 44501, prompt length: 94690
+Label: 47485, Predict:  The <REGISTER_CONTENT> in line commerce-gainful is 35264., Parsed: 35264, prompt length: 94676
+Label: 37805, Predict:  The <REGISTER_CONTENT> in line caffeine-airman: 34241, Parsed: 34241, prompt length: 94697
+Label: 33287, Predict:   The <REGISTER_CONTENT> in line yummy-blackboard is <38740>., Parsed: 38740, prompt length: 94699
+Label: 13151, Predict:  The <REGISTER_CONTENT> for line participant-remnant is <41724>., Parsed: 41724, prompt length: 94643
+Label: 16272, Predict:  Ah, I've found the corresponding line. Since the line is "freeze-lysine", I need to break it down into parts to determine the correct sequence. The line is in the format "<part1>-<part2>".   Let's break it down: "freeze" corresponds to "<REGISTER_CONTENT> is <1276>". "lysine" corresponds to "<REGISTER_CONTENT> is <17877>".  The <REGISTER_CONTENT> in "freeze-lysine" is <17877, Parsed: 17877, prompt length: 94722
+Label: 44740, Predict:  The <REGISTER_CONTENT> for line buckwheat-envious is <3529>., Parsed: 3529, prompt length: 94662
+Label: 11807, Predict:  The '<REGISTER_CONTENT>' in line 'limestone-childlike' is: 26309., Parsed: 26309, prompt length: 94688
+Label: 12889, Predict:  <REGISTER_CONTENT> is 44912., Parsed: 44912, prompt length: 94703
+Label: 10337, Predict:  The <REGISTER_CONTENT> of line gutter-compost is 38187., Parsed: 38187, prompt length: 94642
+Label: 21881, Predict:   The <REGISTER_CONTENT> in line cough-kimono is 468., Parsed: 468, prompt length: 94740
+Label: 5714, Predict:  The <REGISTER_CONTENT> in line emanate-mime is 4736., Parsed: 4736, prompt length: 94670
+Label: 9103, Predict:  The <REGISTER_CONTENT> in line textual-drill is 329., Parsed: 329, prompt length: 94668
+Label: 27581, Predict:  The <REGISTER_CONTENT> for line aftershock-stockings is <41710>., Parsed: 41710, prompt length: 94685
+Label: 8714, Predict:  The <REGISTER_CONTENT> of line grandson-gym is 33494., Parsed: 33494, prompt length: 94642
+Label: 19412, Predict:  The <REGISTER_CONTENT> in line "villa-precedence" is <20312>., Parsed: 20312, prompt length: 94612
+Label: 15883, Predict:  The `<REGISTER_CONTENT>` in line golf-wail is `<34918>.`, Parsed: 34918, prompt length: 94685
+Label: 19039, Predict:  The <REGISTER_CONTENT> in line rambunctious-hardware is 14138., Parsed: 14138, prompt length: 94673
+Label: 45457, Predict:  The <REGISTER_CONTENT> in line addiction-netball is <42546>., Parsed: 42546, prompt length: 94745
+Label: 11965, Predict:  The <REGISTER_CONTENT> for line  wend-nobody is <23829>., Parsed: 23829, prompt length: 94653
+Label: 1212, Predict:    The <REGISTER_CONTENT> of line presentation-fennel is: 21021., Parsed: 21021, prompt length: 94730
+Label: 44298, Predict:  The <REGISTER_CONTENT> in line microphone-diabetes is 45212., Parsed: 45212, prompt length: 94660
+Label: 43344, Predict:  The <REGISTER_CONTENT> in line underground-quantity is 33604., Parsed: 33604, prompt length: 94669
+Label: 10468, Predict:  The <REGISTER_CONTENT> in line statistics-nucleotidase is 10468., Parsed: 10468, prompt length: 94697
+Label: 25588, Predict:  According to the record, the <REGISTER_CONTENT> in line convertible-anyone is <30576>., Parsed: 30576, prompt length: 94682
+Label: 31141, Predict:  The <REGISTER_CONTENT> in line injustice-sandal is <432>., Parsed: 432, prompt length: 94706
+Label: 20870, Predict:  The <REGISTER_CONTENT> for the line 'imperfect-git' is: **113**, Parsed: 113, prompt length: 94671
+Label: 26687, Predict:  The <REGISTER_CONTENT> in the given line is 47538., Parsed: 47538, prompt length: 94705
+Label: 12113, Predict:  The <REGISTER_CONTENT> for the line "repair-organic" is <11411>., Parsed: 11411, prompt length: 94655
+Label: 10852, Predict:  The <REGISTER_CONTENT> for the reorganization-defeated line is: <23519>, Parsed: 23519, prompt length: 94705
+Label: 32444, Predict:  The <REGISTER_CONTENT> in line star-consignment is <34906>., Parsed: 34906, prompt length: 94665
+Label: 12505, Predict:  The <REGISTER_CONTENT> for line borrower-tale is <16964>., Parsed: 16964, prompt length: 94636
+Label: 18689, Predict:  The <REGISTER_CONTENT> is <1123> in line in-joke-foolish., Parsed: 1123, prompt length: 94685
+Label: 38738, Predict:  The <REGISTER_CONTENT> in line grey-electricity is 395., Parsed: 395, prompt length: 94696
+Label: 24908, Predict:  The <REGISTER_CONTENT> in line chain-lackadaisical is 34536., Parsed: 34536, prompt length: 94695
+Label: 19009, Predict:  The <REGISTER_CONTENT> is 5915., Parsed: 5915, prompt length: 94629
+Label: 37262, Predict:  The <REGISTER_CONTENT> in line semicolon-calico is <37262>., Parsed: 37262, prompt length: 94668
+Label: 12519, Predict:  The <REGISTER_CONTENT> in line material-withhold is 48306., Parsed: 48306, prompt length: 94706
+Label: 42792, Predict:  The <REGISTER_CONTENT> in line flag-proposal is 40794., Parsed: 40794, prompt length: 94675
+Label: 47429, Predict:  I found the requested value in line 31785 of the record. The <REGISTER_CONTENT> is 17073., Parsed: 17073, prompt length: 94685
+Label: 41170, Predict:  The <REGISTER_CONTENT> in line polyester-initiative is <49533>., Parsed: 49533, prompt length: 94690
+Label: 17758, Predict:  The <REGISTER_CONTENT> in line transmission-texture is **26228**., Parsed: 26228, prompt length: 94655
+Label: 6711, Predict:  The <REGISTER_CONTENT> in line coat-absorbed is <19947>., Parsed: 19947, prompt length: 94678
+Label: 19721, Predict:  The <REGISTER_CONTENT> in line excitement-semicolon is 49458., Parsed: 49458, prompt length: 94678
+Label: 359, Predict:   <REGISTER_CONTENT> is  15963., Parsed: 15963, prompt length: 94678
+Label: 46739, Predict:  The <REGISTER_CONTENT> in line locomotive-tramp is <11267>., Parsed: 11267, prompt length: 94693
+Label: 4424, Predict:  Ah, I can look up the <REGISTER_CONTENT> for you. It says that the <REGISTER_CONTENT> for line nightingale-resort is 41856., Parsed: 41856, prompt length: 94678
+Label: 26915, Predict:  The <REGISTER_CONTENT> in line leeway-rage is 14055., Parsed: 14055, prompt length: 94721
+Label: 33086, Predict:  Ah, the line index is 12377, and the <REGISTER_CONTENT> is 13948. Would you like me to remember anything else for you?, Parsed: 13948, prompt length: 94661
+Label: 31038, Predict:  The <REGISTER_CONTENT> in line fob-manicure is 16569., Parsed: 16569, prompt length: 94699
+Label: 46646, Predict:  The <REGISTER_CONTENT> in line "bean-winter" is 48991., Parsed: 48991, prompt length: 94690
+Label: 35642, Predict:  The <REGISTER_CONTENT> in line mushy-shoes is <38339>., Parsed: 38339, prompt length: 94724
+Label: 39039, Predict:   The <REGISTER_CONTENT> in line disagree-bolero is 1958., Parsed: 1958, prompt length: 94649
+Label: 24129, Predict:  The <REGISTER_CONTENT> in the specified line is: 43668, Parsed: 43668, prompt length: 94703
+Label: 41672, Predict:  The <REGISTER_CONTENT> in line keyboard-acquire is <13320>., Parsed: 13320, prompt length: 94676
+Label: 14465, Predict:  The <REGISTER_CONTENT> in line "foal-steer" is <11010>., Parsed: 11010, prompt length: 94685
+Label: 26590, Predict:  The <REGISTER_CONTENT> of the last line is <39986>., Parsed: 39986, prompt length: 94634
+Label: 32726, Predict:  The <REGISTER_CONTENT> in line mill-modernity is 32392., Parsed: 32392, prompt length: 94703
+Label: 19679, Predict:  Ah, cool-bun is line 11903 in the record. The <REGISTER_CONTENT> is 10939., Parsed: 10939, prompt length: 94691
+Label: 5146, Predict:  The <REGISTER_CONTENT> in "bulk-dirndl" is <36122>., Parsed: 36122, prompt length: 94663
+Label: 10854, Predict:  The value of the <REGISTER_CONTENT> in line enzyme-manner is 41069., Parsed: 41069, prompt length: 94605
+Label: 13735, Predict:  The <REGISTER_CONTENT> for the line "imitation-pathogenesis" is <12835>., Parsed: 12835, prompt length: 94652
+Label: 35532, Predict:  The <REGISTER_CONTENT> in line "chaos-honeydew" is 5559., Parsed: 5559, prompt length: 94706
+Label: 561, Predict:  Finally! I'm glad the record is over. The <REGISTER_CONTENT> of line hungry-overflight is <33624>., Parsed: 33624, prompt length: 94713
+Label: 45098, Predict:  The <REGISTER_CONTENT> in line "embarrassed-phone" is 8380., Parsed: 8380, prompt length: 94696
+Label: 38134, Predict:  The <REGISTER_CONTENT> for line freckle-dust storm is  <23983>., Parsed: 23983, prompt length: 94733
+Label: 46841, Predict:   <REGISTER_CONTENT> is <298>, Parsed: 298, prompt length: 94671
+Label: 29557, Predict:  The <REGISTER_CONTENT> for the line thermostat-prizefight is 30831., Parsed: 30831, prompt length: 94707
+Label: 45032, Predict:  The <REGISTER_CONTENT> in line "sanctity-curly" is 31953., Parsed: 31953, prompt length: 94617
+Label: 22633, Predict:  The <REGISTER_CONTENT> of line peep-tag is 11230., Parsed: 11230, prompt length: 94660
+Label: 20978, Predict:  According to the record, the <REGISTER_CONTENT> associated with line fold-junker is:  <39282>, Parsed: 39282, prompt length: 94677
+Label: 2166, Predict:  The <REGISTER_CONTENT> of line oxford-construct is 25346., Parsed: 25346, prompt length: 94716
+Label: 24298, Predict:  The <REGISTER_CONTENT> in line "instrumentalists-trusty" (I assume there might be a typo and it's actually "instrumentalist-tacky") is <48445>., Parsed: 48445, prompt length: 94695
+Label: 49642, Predict:  The <REGISTER_CONTENT> in line marked-compromise is  45450., Parsed: 45450, prompt length: 94699
+Label: 40325, Predict:  The <REGISTER_CONTENT> in line appraise-workhorse is <38792>., Parsed: 38792, prompt length: 94694
+Label: 18983, Predict:  The <REGISTER_CONTENT> in line "psychotic-watcher" is  **18983**., Parsed: 18983, prompt length: 94684
+Label: 45692, Predict:  The <REGISTER_CONTENT> in line collector-cheetah is <11221>., Parsed: 11221, prompt length: 94682
+Label: 17785, Predict:  The <REGISTER_CONTENT> in line cushion-talent is <10327>., Parsed: 10327, prompt length: 94730
+Label: 36621, Predict:  According to the record of lines, the <REGISTER_CONTENT> in line "turning-cat" is <30427>.   If all lines are of the same format, with the line number and a content followed by a '<REGISTER_CONTENT>' with a numerical value, I can just provide the answer by simply extracting the numerical value following '<REGISTER_CONTENT>'. Without the line number., Parsed: 30427, prompt length: 94654
+Label: 44855, Predict:  The <REGISTER_CONTENT> in line leeway-curler is <11244>., Parsed: 11244, prompt length: 94702
+Label: 45136, Predict:  The <REGISTER_CONTENT> of line agony-temporary is 45136., Parsed: 45136, prompt length: 94684
+Label: 9191, Predict:  The <REGISTER_CONTENT> in line bedroom-hearing is <11392>., Parsed: 11392, prompt length: 94754
+Label: 35974, Predict:  Ah, I see. The <REGISTER_CONTENT> is 1595., Parsed: 1595, prompt length: 94678
+Label: 40276, Predict:  The <REGISTER_CONTENT> for line liquor-private is #49468., Parsed: 49468, prompt length: 94691
+Label: 12682, Predict:  The <REGISTER_CONTENT> for the line 'captain-milkshake' is <13412>., Parsed: 13412, prompt length: 94675
+Label: 20420, Predict:  There is no <REGISTER_CONTENT> in line rawhide-mower. This line does not contain the syntax <line <line index>><REGISTER_CONTENT> is <<REGISTER_CONTENT> at the end.   If you provide me with another line that actually contains the syntax, I'll do my best to extract and provide the <REGISTER_CONTENT> for you., Parsed: -1, prompt length: 94678
+Label: 36372, Predict:  The <REGISTER_CONTENT> in line piracy-community is 12541., Parsed: 12541, prompt length: 94711
+Label: 20879, Predict:  The <REGISTER_CONTENT> in line circadian-chopstick is: 38291., Parsed: 38291, prompt length: 94697
+Label: 9313, Predict:  The <REGISTER_CONTENT> of line form-sprat is 9313., Parsed: 9313, prompt length: 94700
+Label: 13754, Predict:  The <REGISTER_CONTENT> in line apparel-affiliate is <44558>., Parsed: 44558, prompt length: 94629
+Label: 27217, Predict:  The <REGISTER_CONTENT> in line "nymph-proof-reader" is <412> (412)., Parsed: 412, prompt length: 94660
+Label: 38077, Predict:  The <REGISTER_CONTENT> in line mirror-ratty is <13649>., Parsed: 13649, prompt length: 94703
+Accuracy: 0.06, Ave Prompt Length: 94683.22000000003

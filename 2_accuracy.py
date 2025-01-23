@@ -2,7 +2,7 @@ import os
 import re
 import matplotlib.pyplot as plt
 
-tpe = "1B"
+tpe = "3B"
 ite = "1"
 # List of model names
 model_names = [
