@@ -1,21 +1,41 @@
+#!/usr/bin/env python
+"""
+Simplified Benchmarking Script for Model Efficiency
+
+This script benchmarks the efficiency of Hugging Face models by measuring GPU memory usage,
+throughput (tokens per second), and latency (time taken to generate tokens).
+
+Usage:
+    python 11_model_efficiency.py \
+        --model-path model \
+        --max-new-tokens 128 \
+        --batch-size 1 \
+        --device cuda
+"""
+
 import os
 import time
 import torch
 import argparse
-import traceback
+import logging
 from transformers import AutoTokenizer, AutoModelForCausalLM
+
+# Configure Logging
+logging.basicConfig(
+    format="%(levelname)s:%(asctime)s %(message)s",
+    level=logging.INFO,  # Set to INFO for general logs
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
 def create_prompt(prompt_length, batch_size, tokenizer, device):
     """
-    Create a prompt of exactly `prompt_length` tokens. This avoids the confusion of
-    using a repeated string like 'hello ' which might tokenize into more or fewer
-    tokens than expected.
+    Creates a dummy prompt of specified length filled with the pad token.
     """
     if tokenizer.pad_token_id is None:
-        # Some LLaMA-based models might not have an official pad_token_id set:
         tokenizer.pad_token = tokenizer.eos_token
 
-    # Here we just fill with the pad_token_id, but it could be anything you like.
     input_ids = torch.full(
         (batch_size, prompt_length),
         fill_value=tokenizer.pad_token_id,
@@ -23,7 +43,6 @@ def create_prompt(prompt_length, batch_size, tokenizer, device):
         device=device
     )
     return {"input_ids": input_ids}
-
 
 def benchmark_model(
     model_path,
@@ -34,85 +53,117 @@ def benchmark_model(
     trust_remote_code=False
 ):
     """
-    Benchmark a Hugging Face model for GPU memory usage, throughput, latency, and scalability.
-
-    Args:
-        model_path (str): Local path to the saved model.
-        prompt_length (int): Exact length of the *input prompt* in tokens.
-        batch_size (int): Number of inputs (prompts) to process at once.
-        max_new_tokens (int): How many tokens to generate beyond the prompt.
-        device (str): Device to run the model on (default: 'cuda').
-        trust_remote_code (bool): Whether to allow custom code from model repo.
-
-    Returns:
-        dict: Performance metrics including memory, throughput, latency, and scalability.
+    Benchmarks a single model by generating tokens and measuring performance metrics.
     """
-    # ---------- Load tokenizer ----------
-    tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=trust_remote_code)
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
+    try:
+        # Load tokenizer and model
+        tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=trust_remote_code)
+        if tokenizer.pad_token is None:
+            tokenizer.pad_token = tokenizer.eos_token
 
-    # ---------- Load model ----------
-    model = AutoModelForCausalLM.from_pretrained(model_path, trust_remote_code=trust_remote_code)
-    model.to(device)
-    model.eval()
+        model = AutoModelForCausalLM.from_pretrained(
+            model_path,
+            trust_remote_code=trust_remote_code,
+            torch_dtype=torch.float16 if device == "cuda" else torch.float32,
+        ).to(device)
+        model.eval()
 
-    # Print some debug info to confirm the correct model is loaded
-    print(f"\nLoaded model from: {model_path}")
-    # print(f"Model config: {model.config}")
-    print(f"Number of parameters: {sum(p.numel() for p in model.parameters())}")
+        logger.info(f"\nLoaded model from: {model_path}")
+        logger.info(f"Number of parameters: {sum(p.numel() for p in model.parameters())}")
 
-    # ---------- Create the prompt (exact token length) ----------
-    inputs = create_prompt(prompt_length, batch_size, tokenizer, device)
+        # Create prompt
+        inputs = create_prompt(prompt_length, batch_size, tokenizer, device)
 
-    # ---------- Clear CUDA memory stats ----------
-    torch.cuda.empty_cache()
-    torch.cuda.reset_peak_memory_stats(device)
+        # Clear CUDA cache and reset memory stats
+        if device == "cuda":
+            torch.cuda.empty_cache()
+            torch.cuda.reset_peak_memory_stats(device)
 
-    # ---------- Run generation ----------
-    start_mem = torch.cuda.memory_allocated(device)
-    start_time = time.time()
+        # Measure GPU memory before inference
+        if device == "cuda":
+            start_mem = torch.cuda.memory_allocated(device)
 
-    with torch.no_grad():
-        outputs = model.generate(
-            **inputs,
-            max_new_tokens=max_new_tokens
-        )
+        # Synchronize and start timer
+        if device == "cuda":
+            torch.cuda.synchronize()
+        start_time = time.time()
 
-    end_time = time.time()
-    end_mem = torch.cuda.memory_allocated(device)
-    peak_mem = torch.cuda.max_memory_allocated(device)
+        # Generate tokens
+        with torch.no_grad():
+            outputs = model.generate(
+                **inputs,
+                max_new_tokens=max_new_tokens,
+                return_dict_in_generate=True,
+                output_scores=False  # Disable scores to simplify
+            )
 
-    # ---------- Compute metrics ----------
-    elapsed_time = end_time - start_time
+        # Synchronize and end timer
+        if device == "cuda":
+            torch.cuda.synchronize()
+        end_time = time.time()
 
-    # Total tokens processed = (prompt_length + generated_tokens) * batch_size
-    # But we are just using the final sequence length to represent throughput:
-    # (You can change the calculation if you want to separate prompt vs new tokens.)
-    total_tokens = outputs.shape[1] * batch_size
+        # Measure GPU memory after inference
+        if device == "cuda":
+            end_mem = torch.cuda.memory_allocated(device)
+            peak_mem = torch.cuda.max_memory_allocated(device)
+        else:
+            peak_mem = None  # GPU memory not applicable for CPU
 
-    throughput = total_tokens / elapsed_time if elapsed_time > 0 else float('inf')
-    scalability_score = total_tokens / peak_mem if peak_mem != 0 else float('inf')
+        # Calculate metrics
+        elapsed_time = end_time - start_time  # in seconds
+        total_generated_tokens = max_new_tokens * batch_size
+        throughput = total_generated_tokens / elapsed_time if elapsed_time > 0 else float('inf')
+        scalability_score = throughput / (peak_mem / 1e6) if peak_mem and peak_mem != 0 else float('inf')
 
-    return {
-        "gpu_memory_MB": peak_mem / 1e6,
-        "throughput_tokens_per_sec": throughput,
-        "latency_sec": elapsed_time,
-        "scalability_score": scalability_score
-    }
+        metrics = {
+            "Model": os.path.basename(model_path),
+            "Sequence Length": prompt_length,
+            "GPU Memory (MB)": peak_mem / 1e6 if peak_mem else "N/A",
+            "Throughput (tok/s)": round(throughput, 2),
+            "Latency (s)": round(elapsed_time, 4),
+            "Scalability Score": round(scalability_score, 4) if peak_mem else "N/A"
+        }
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Benchmark Hugging Face models.")
-    parser.add_argument("--model-path", type=str, required=True, 
-                        help="Root directory containing model subdirectories.")
-    parser.add_argument("--max-new-tokens", type=int, default=512, 
-                        help="Tokens to generate beyond the prompt.")
-    parser.add_argument("--batch-size", type=int, default=1, 
-                        help="Batch size for generation.")
-    parser.add_argument("--device", type=str, default="cuda", 
-                        help="Device to run the model on (cpu or cuda).")
+        # Log metrics
+        logger.info(f"Sequence Length: {prompt_length}")
+        logger.info(f"GPU Memory Usage: {metrics['GPU Memory (MB)']} MB")
+        logger.info(f"Throughput: {metrics['Throughput (tok/s)']} tokens/sec")
+        logger.info(f"Latency: {metrics['Latency (s)']} seconds")
+        logger.info(f"Scalability Score: {metrics['Scalability Score']}")
+
+        return metrics
+
+    except torch.cuda.OutOfMemoryError:
+        torch.cuda.empty_cache()
+        logger.error("CUDA OOM - Skipping this configuration")
+        return {
+            "Model": os.path.basename(model_path),
+            "Sequence Length": prompt_length,
+            "GPU Memory (MB)": "OOM",
+            "Throughput (tok/s)": "OOM",
+            "Latency (s)": "OOM",
+            "Scalability Score": "OOM"
+        }
+    except Exception as e:
+        logger.error(f"Error benchmarking model {model_path} with sequence length {prompt_length}: {e}")
+        return {
+            "Model": os.path.basename(model_path),
+            "Sequence Length": prompt_length,
+            "GPU Memory (MB)": "ERROR",
+            "Throughput (tok/s)": "ERROR",
+            "Latency (s)": "ERROR",
+            "Scalability Score": "ERROR"
+        }
+
+def main():
+    parser = argparse.ArgumentParser(description="Benchmark Hugging Face models for efficiency.")
+    parser.add_argument("--model-path", type=str, required=True, help="Root directory containing model subdirectories.")
+    parser.add_argument("--max-new-tokens", type=int, default=128, help="Tokens to generate beyond the prompt.")
+    parser.add_argument("--batch-size", type=int, default=1, help="Batch size for generation.")
+    parser.add_argument("--device", type=str, default="cuda", choices=["cuda", "cpu"], help="Device to run the model on.")
     args = parser.parse_args()
 
+    # List of your models
     model_dirs = [
         "HanzhiZhang_H2O_LLaMA_1B",
         "HanzhiZhang_StreamingLLM_LLaMA_1B",
@@ -121,57 +172,36 @@ if __name__ == "__main__":
         "meta-llama_Llama-3.2-1B-Instruct",
     ]
 
-    # NOTE: This is now truly "tokens" in the input_ids, not repeated strings.
-    sequence_lengths = [2000, 4000, 8000, 16000, 32000, 64000, 128000]
+    # Define sequence lengths within model's maximum context window
+    # Common LLaMA models have a max context length of 2048 or 4096
+    sequence_lengths = [512, 1024, 2048, 4096]
 
-    # Store results in a dict for reference
-    results = {}
+    # Iterate over each model and sequence length
+    for model_dir in model_dirs:
+        trust_remote_code = ("DAM" in model_dir)  # Adjust based on your model's requirements
+        model_full_path = os.path.join(args.model_path, model_dir)
 
-    # Ensure 'outputs' folder exists
-    os.makedirs("outputs", exist_ok=True)
-    output_file = "outputs/model_efficiency.txt"
+        logger.info(f"\nStarting benchmarks for model: {model_dir}")
 
-    with open(output_file, "w") as f:
-        # Write CSV header
-        f.write("Model,Seq Len,GPU Memory (MB),Throughput (tok/s),Latency (s)\n")
+        for seq_len in sequence_lengths:
+            logger.info(f"\nBenchmarking sequence length: {seq_len}")
+            metrics = benchmark_model(
+                model_path=model_full_path,
+                prompt_length=seq_len,
+                batch_size=args.batch_size,
+                max_new_tokens=args.max_new_tokens,
+                device=args.device,
+                trust_remote_code=trust_remote_code
+            )
 
-        for model_dir in model_dirs:
-            # Decide whether to trust remote code based on 'DAM' in the name
-            trust_remote_code = ("DAM" in model_dir)
+            # Print metrics in a structured format
+            print("\nBenchmark Results:")
+            print("===================")
+            for key, value in metrics.items():
+                print(f"{key}: {value}")
+            print("===================\n")
 
-            model_full_path = os.path.join(args.model_path, model_dir)
-            results[model_dir] = {}
+    logger.info("\nAll benchmarks completed.")
 
-            for seq_len in sequence_lengths:
-                try:
-                    metrics = benchmark_model(
-                        model_path=model_full_path,
-                        prompt_length=seq_len,
-                        batch_size=args.batch_size,
-                        max_new_tokens=args.max_new_tokens,
-                        device=args.device,
-                        trust_remote_code=trust_remote_code
-                    )
-                    results[model_dir][seq_len] = metrics
-                    f.write(
-                        f"{model_dir},{seq_len},"
-                        f"{metrics['gpu_memory_MB']:.2f},"
-                        f"{metrics['throughput_tokens_per_sec']:.2f},"
-                        f"{metrics['latency_sec']:.2f}\n"
-                    )
-
-                except Exception as e:
-                    # Print the full traceback to stdout
-                    print(f"\nERROR benchmarking {model_dir} with seq_len={seq_len}:")
-                    traceback.print_exc()
-
-                    results[model_dir][seq_len] = {"error": str(e)}
-                    f.write(f"{model_dir},{seq_len},ERROR,ERROR,ERROR\n")
-
-                # After each test, delete the model reference and empty cache 
-                # to reduce carry-over from one sequence length to the next.
-                # (If the function returns, 'model' is out of scope already, 
-                #  but let's be extra sure.)
-                torch.cuda.empty_cache()
-
-    print("\nBenchmark results saved to outputs/model_efficiency.txt")
+if __name__ == "__main__":
+    main()

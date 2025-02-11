@@ -44,7 +44,8 @@ if __name__ == "__main__":
         # "HanzhiZhang/H2O_LLaMA_1B",
         # "HanzhiZhang/StreamingLLM_LLaMA_1B",
         # "HanzhiZhang/MoA_LLaMA_1B",
-        "HanzhiZhang/DAM_LLaMA_1B",
+        # "HanzhiZhang/DAM_LLaMA_1B",
+        "HanzhiZhang/DAM_LLaMA_3B",
         # "meta-llama/Llama-3.2-1B-Instruct",
     ]
 
