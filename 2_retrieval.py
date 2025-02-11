@@ -13,9 +13,9 @@ output_dir = "outputs/"
 models = [
     ("LLaMA_3B", "LongEval/evaluation/lines_1/predictions/meta-llama_Llama-3.2-3B-Instruct/"),
     ("DAM_3B", "LongEval/evaluation/lines_1/predictions/HanzhiZhang_DAM_LLaMA_3B/"),
-    ("H2O_3B", "LongEval/evaluation/lines_1/predictions/HanzhiZhang_H2O_LLaMA_3B/"),
     ("MoA_3B", "LongEval/evaluation/lines_1/predictions/HanzhiZhang_MoA_LLaMA_3B/"),
-    ("StreamingLLM_3B", "LongEval/evaluation/lines_1/predictions/HanzhiZhang_StreamingLLM_LLaMA_3B/")
+    ("StreamingLLM_3B", "LongEval/evaluation/lines_1/predictions/HanzhiZhang_StreamingLLM_LLaMA_3B/"),
+    ("H2O_3B", "LongEval/evaluation/lines_1/predictions/HanzhiZhang_H2O_LLaMA_3B/")
 ]
 
 # Ensure output directory exists
@@ -74,19 +74,20 @@ def process_model(model_name, response_dir):
     accuracy_pivot = accuracy_data.pivot(index="retrieval_position_bin", columns="prompt_length_bin", values="correct")
     accuracy_pivot = accuracy_pivot.sort_index().sort_index(axis=1)
     accuracy_pivot = accuracy_pivot.reindex(sorted(accuracy_pivot.columns, key=int), axis=1)
+    accuracy_pivot.columns = [f"{col//1000}k" for col in accuracy_pivot.columns]
     return accuracy_pivot
 
 # Collect all models' accuracy data
 data_dict = {model_name: process_model(model_name, response_dir) for model_name, response_dir in models}
 
 # Get all possible prompt length bins across models
-all_columns = sorted(set().union(*(df.columns for df in data_dict.values())), key=int)
+all_columns = sorted(set().union(*(df.columns for df in data_dict.values())), key=lambda x: int(x.replace("k", "")))
 
 # Ensure all DataFrames have the same columns, filling missing values with NaN
 data_dict = {model: df.reindex(columns=all_columns) for model, df in data_dict.items()}
 
 # Generate vertically stacked heatmaps with shared X-axis
-fig, axes = plt.subplots(len(models), 1, figsize=(12, 1 * len(models)+4), sharex=True, gridspec_kw={'hspace': 0})
+fig, axes = plt.subplots(len(models), 1, figsize=(12, 1 * len(models)+2), sharex=True, gridspec_kw={'hspace': 0})
 
 for ax, (model_name, accuracy_pivot) in zip(axes, data_dict.items()):
     sns.heatmap(
