@@ -86,26 +86,34 @@ all_columns = sorted(set().union(*(df.columns for df in data_dict.values())), ke
 # Ensure all DataFrames have the same columns, filling missing values with NaN
 data_dict = {model: df.reindex(columns=all_columns) for model, df in data_dict.items()}
 
-# Generate vertically stacked heatmaps with shared X-axis
-fig, axes = plt.subplots(len(models), 1, figsize=(12, 1 * len(models)+2), sharex=True, gridspec_kw={'hspace': 0})
+# Generate heatmaps with a full-length color bar
+fig, axes = plt.subplots(len(models), 1, figsize=(12, 1 * len(models) + 2), sharex=True, gridspec_kw={'hspace': 0})
+cbar_ax = fig.add_axes([0.92, 0.145, 0.02,0.825])  # Extend colorbar to match the full height of the figure
 
+# Draw heatmaps
 for ax, (model_name, accuracy_pivot) in zip(axes, data_dict.items()):
-    sns.heatmap(
+    heatmap = sns.heatmap(
         accuracy_pivot,
-        cmap="viridis",
+        cmap="Set2",
         annot=False,
         linewidths=0.5,
-        cbar=False,
+        cbar=ax == axes[-1],  # Only add colorbar once
+        cbar_ax=None if ax != axes[-1] else cbar_ax,
         square=True,
         ax=ax
     )
     ax.set_title("")
     ax.set_ylabel("")
     ax.set_xlabel("")
+    ax.set_xticklabels(ax.get_xticklabels(), fontsize=18, fontweight='bold')
+    ax.set_yticklabels(ax.get_yticklabels(), fontsize=10, fontweight='bold')
 
-plt.tight_layout()
-heatmap_path = os.path.join(output_dir, "retrieval_accuracy_heatmaps_vertical.png")
+# Adjust layout to prevent overlap
+plt.tight_layout(rect=[0, 0, 0.92, 1])  # Leave space for the colorbar on the right
+
+# Save the figure
+heatmap_path = os.path.join(output_dir, "retrieval_accuracy_heatmaps_with_full_colorbar.png")
 plt.savefig(heatmap_path, bbox_inches='tight', pad_inches=0, dpi=300, transparent=True)
 plt.close()
 
-print(f"- Combined Heatmap Image (Vertical): {heatmap_path}")
+print(f"- Combined Heatmap with Full-Length Color Bar Image: {heatmap_path}")
