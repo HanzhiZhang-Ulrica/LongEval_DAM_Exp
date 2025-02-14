@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import itertools
 from matplotlib.ticker import FuncFormatter
+import matplotlib.font_manager as fm
+
 
 tpe = "3B"
 iterations = ["1", "2", "3", "4", "5"]
@@ -98,56 +100,86 @@ for i, (model, linestyle) in enumerate(zip(model_names, linestyles)):
     color = colors[model][:3]  # Extract RGB without alpha for lines
     box_color = colors[model]  # RGBA for box facecolor
     
-    boxprops = dict(facecolor=box_color, edgecolor=color)
-    whiskerprops = dict(color=color)
-    capprops = dict(color=color)
-    flierprops = dict(color=color, markeredgecolor=color)
-    medianprops = dict(color=color)
+    # Calculate standard deviation
+    std_dev = [np.std(all_results[model][ln]) if ln in all_results[model] else 0 for ln in filtered_lines]
     
+    # Box plot settings (Wider boxes)
     ax.boxplot(
         box_data[model], 
         positions=positions + i * 5, 
-        widths=4, 
+        widths=80,  # Increased width for better visibility
         patch_artist=True, 
-        boxprops=boxprops,
-        whiskerprops=whiskerprops,
-        capprops=capprops,
-        flierprops=flierprops,
-        medianprops=medianprops
+        boxprops=dict(facecolor=box_color, edgecolor=color, alpha=0.1),
+        whiskerprops=dict(color=color),
+        capprops=dict(color=color),
+        flierprops=dict(color=color, markeredgecolor=color, alpha=0.8),
+        medianprops=dict(color=color)
     )
+
+    # Plot mean accuracy
     ax.plot(
         positions + i * 5, 
         avg_data[model], 
-        label=model_display_names[model],  # Use the display name here
+        label=model_display_names[model],  
         color=color, 
         linewidth=2, 
-        linestyle=linestyle
+        linestyle=linestyle,
+        marker='o', 
+        markersize=4
     )
+
+    # # Add shaded confidence interval
+    # ax.fill_between(
+    #     positions + i * 5, 
+    #     np.array(avg_data[model]) - np.array(std_dev), 
+    #     np.array(avg_data[model]) + np.array(std_dev), 
+    #     color=color, 
+    #     alpha=0.2
+    # )
 
 # Define the formatter function
 def kilounit_formatter(x, pos):
-    # Find the closest line number
     closest_line = min(filtered_lines, key=lambda ln: abs(ln - x))
-    # Get the corresponding length
     length = lengths.get(closest_line, 0)
     return f'{length/1000:.1f}k'
 
 # Set x-ticks at desired positions
 ax.set_xticks(positions)
-
-# Apply the formatter to the x-axis
 ax.xaxis.set_major_formatter(FuncFormatter(kilounit_formatter))
 
 # Hide every second tick label
 for label in ax.get_xticklabels()[1::2]:
     label.set_visible(False)
 
-# ax.set_title("Accuracy Box Plot and Average Accuracy vs. Prompt Length", fontsize=16)
-ax.set_xlabel("Prompt Length", fontsize=14)
-ax.set_ylabel("Accuracy", fontsize=14)
-ax.legend(fontsize=12)
+# Bold X and Y labels
+ax.set_xlabel("Prompt Length", fontsize=30, fontweight='bold')
+ax.set_ylabel("Accuracy", fontsize=30, fontweight='bold')
+
+# Increase and bolden tick font size
+ax.tick_params(axis='both', which='major', labelsize=25)
+for label in ax.get_xticklabels() + ax.get_yticklabels():
+    label.set_fontweight('bold')
+
+legend_font = fm.FontProperties(size=20, weight='bold')  # Explicit font size & weight
+
+ax.legend(
+    # fontsize=10,  # Attempted size (for reference)
+    prop=legend_font,  # Force Matplotlib to use this font size
+    loc='upper right', 
+    frameon=True, 
+    # framealpha=1.0, 
+    # borderpad=2, 
+    # labelspacing=1.5, 
+    # handlelength=4, 
+    # handletextpad=2, 
+    # borderaxespad=1.5
+)
+
 ax.grid(alpha=0.3)
+
+plt.xticks(rotation=45)  # Rotates x-tick labels by 45 degrees
+
 plt.savefig(f"outputs/all_models_boxplot_length_{tpe}.pdf", format='pdf', bbox_inches='tight')
 plt.close()
 
-print("Box plot with average accuracy line saved!")
+print("saved!")
